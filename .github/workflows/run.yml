@@ -19,4 +19,6 @@ jobs:
           pip install requests beautifulsoup4
 
       - name: Run script
+        env:
+          API_KEY_DEEPSEEK: ${{ secrets.API_KEY_DEEPSEEK }}
         run: python news.py
