@@ -16,7 +16,8 @@ jobs:
 
       - name: Install libraries
         run: |
-          pip install requests beautifulsoup4
+          python -m pip install --upgrade pip
+          python -m pip install requests beautifulsoup4
 
       - name: Run script
         env:
