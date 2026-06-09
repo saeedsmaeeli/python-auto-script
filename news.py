@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import json
 import time
+import os
+
 
 BASE_URL = "https://www.yahoo.com"
 NEWS_URL = "https://www.yahoo.com/news/"
@@ -208,8 +210,11 @@ def call_model(prompt):
 
     url = "https://openrouter.ai/api/v1/chat/completions"
 
+    API_KEY = os.getenv("API_KEY_DEEPSEEK")
+
     headers = {
-    "Authorization": "API_KEY_deepseek"    }
+       "Authorization": f"Bearer {API_KEY}"
+     }
 
     payload = {
         "model": "deepseek/deepseek-v4-flash",
