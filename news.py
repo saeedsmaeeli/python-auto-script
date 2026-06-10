@@ -4,6 +4,8 @@ from urllib.parse import urljoin
 import json
 import time
 import os
+import subprocess
+
 
 BASE_URL = "https://www.yahoo.com"
 NEWS_URL = "https://www.yahoo.com/news/"
@@ -270,7 +272,12 @@ print("✅ saved crypto_news_sentiment.json")
 
 
 
+subprocess.run(["git", "config", "--global", "user.name", "github-actions"])
+subprocess.run(["git", "config", "--global", "user.email", "actions@github.com"])
 
+subprocess.run(["git", "add", "crypto_news_sentiment.json"])
+subprocess.run(["git", "commit", "-m", "update data"])
+subprocess.run(["git", "push"])
 
 
 
