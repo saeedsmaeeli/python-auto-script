@@ -264,21 +264,22 @@ for i, article in enumerate(news):
     })
 
 
-# ---------------- SAVE ----------------
-with open("crypto_news_sentiment.json", "w", encoding="utf-8") as f:
-    json.dump(results, f, indent=2, ensure_ascii=False)
-
-print(results)
 
 
 
 
 
+# ---------------- send to server ----------------
 
 
 
+url = "https://bazarpulse.ir/insert_news.php"
 
-
+try:
+    r = requests.post(url, json=results, timeout=30)
+    print("PHP response:", r.text)
+except Exception as e:
+    print("Error sending to PHP:", e)
 
 
 
