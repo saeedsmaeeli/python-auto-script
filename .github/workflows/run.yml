@@ -4,15 +4,14 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # 👈 اینجا اضافه می‌کنی
-
+  contents: write
 
 jobs:
   run:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4   # 👈 اینجا
+      - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
