@@ -192,10 +192,10 @@ Valid outputs:
 No explanations. No bullet points. No extra text. Only the scores in the same order as the input news items.
 """
 
-    for i, n in enumerate(news):
-        prompt += f"\n{i+1}. {n['title']}\n{n['text'][:800]}\n"
+for i, n in enumerate(news):
+prompt += f"\n{i+1}. {n['title']}\n{n['text'][:800]}\n"
 
-    return prompt
+return prompt
 
 
 # ---------------- API CALL (WITH RETRY) ----------------
@@ -218,8 +218,8 @@ def call_model(prompt):
         ]
     }
 
-    for attempt in range(10):
-        try:
+for attempt in range(10):
+    try:
             r = requests.post(
                 url,
                 headers=headers,
