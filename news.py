@@ -1,10 +1,10 @@
+> سعید:
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import json
 import time
 import os
-
 
 BASE_URL = "https://www.yahoo.com"
 NEWS_URL = "https://www.yahoo.com/news/"
@@ -19,10 +19,8 @@ headers = {
 session = requests.Session()
 session.headers.update(headers)
 
-
 # ---------------- ARTICLE TEXT ----------------
 def extract_article_paragraphs(soup, max_paragraphs=8):
-
     selectors = [
         'div[data-article-body="true"]',
         'article',
@@ -39,15 +37,11 @@ def extract_article_paragraphs(soup, max_paragraphs=8):
         return []
 
     paragraphs = []
-
     for p in container.find_all("p"):
         text = p.get_text(" ", strip=True)
-
         if len(text) < 20:
             continue
-
         paragraphs.append(text)
-
         if len(paragraphs) >= max_paragraphs:
             break
 
@@ -55,63 +49,64 @@ def extract_article_paragraphs(soup, max_paragraphs=8):
 
 
 def fetch_article_text(url):
+    for attempt in range(10):
+        try:
+            r = session.get(url, timeout=15)
+            soup = BeautifulSoup(r.text, "html.parser")
+            paragraphs = extract_article_paragraphs(soup)
+            return " ".join(paragraphs)
+        except:
+            time.sleep(1)
 
-    try:
-        r = session.get(url, timeout=15)
-        soup = BeautifulSoup(r.text, "html.parser")
-
-        paragraphs = extract_article_paragraphs(soup)
-        return " ".join(paragraphs)
-
-    except:
-        return ""
+    return ""
 
 
 # ---------------- SCRAPE YAHOO ----------------
 def scrape_yahoo_first_15():
-
     news = []
 
-    r = session.get(NEWS_URL, timeout=15)
-    soup = BeautifulSoup(r.text, "html.parser")
+    for attempt in range(10):
+        try:
+            r = session.get(NEWS_URL, timeout=15)
+            soup = BeautifulSoup(r.text, "html.parser")
 
-    news_list = soup.find("ul", class_="flex flex-col gap-4 sm:gap-6")
+            news_list = soup.find("ul", class_="flex flex-col gap-4 sm:gap-6")
+            if not news_list:
+                time.sleep(1)
+                continue
 
-    if not news_list:
-        return news
+            items = news_list.find_all("li", class_="list-none")[:8]
 
-    items = news_list.find_all("li", class_="list-none")[:8]
+            for item in items:
+                title_tag = item.find("h3")
+                a_tag = title_tag.find("a") if title_tag else None
+                if not a_tag:
+                    continue
 
-    for item in items:
+                title = a_tag.get_text(strip=True)
+                link = urljoin(BASE_URL, a_tag["href"])
 
-        title_tag = item.find("h3")
-        a_tag = title_tag.find("a") if title_tag else None
+                article_text = fetch_article_text(link)
 
-        if not a_tag:
-            continue
+                news.append({
+                    "title": title,
+                    "text": article_text
+                })
 
-        title = a_tag.get_text(strip=True)
-        link = urljoin(BASE_URL, a_tag["href"])
+                time.sleep(1)
 
-        article_text = fetch_article_text(link)
+            if news:
+                return news
 
-        news.append({
-            "title": title,
-            "text": article_text
-        })
-
-        #print("✅ scraped:", article_text)
-
-        time.sleep(1)
+        except:
+            time.sleep(1)
 
     return news
 
 
 # ---------------- GPT ANALYSIS ----------------
-
 def build_prompt(news):
-
-    prompt = """
+       prompt = """
 You are a CRYPTO MACRO IMPACT CLASSIFIER.
 Your task is to evaluate each news item and determine its likely impact on Bitcoin and the broader cryptocurrency market.
 Think ONLY through these 10 drivers:
@@ -204,17 +199,16 @@ No explanations. No bullet points. No extra text. Only the scores in the same or
     return prompt
 
 
-# ---------------- API CALL ----------------
-
+# ---------------- API CALL (WITH RETRY) ----------------
 def call_model(prompt):
 
     url = "https://openrouter.ai/api/v1/chat/completions"
-
     API_KEY = os.getenv("API_KEY_DEEPSEEK")
 
     headers = {
-       "Authorization": f"Bearer {API_KEY}"
-     }
+        "Authorization": f"Bearer {API_KEY}",
+        "Content-Type": "application/json"
+    }
 
     payload = {
         "model": "deepseek/deepseek-v4-flash",
@@ -225,38 +219,42 @@ def call_model(prompt):
         ]
     }
 
-    r = requests.post(url, headers=headers, data=json.dumps(payload), timeout=30)
+    for attempt in range(10):
+        try:
+            r = requests.post(
+                url,
+                headers=headers,
+                data=json.dumps(payload),
+                timeout=30
+            )
 
-    data = r.json()
+            data = r.json()
 
-    return data["choices"][0]["message"]["content"]
+            return data["choices"][0]["message"]["content"]
+
+        except:
+            time.sleep(2)
+
+    return ""
 
 
 # ---------------- MAIN ----------------
-
 news = scrape_yahoo_first_15()
-
 prompt = build_prompt(news)
 
 scores_text = call_model(prompt)
 
 scores = []
 for line in scores_text.splitlines():
-
     line = line.strip()
-
     if line in ["-1", "0", "1"]:
         scores.append(int(line))
 
-
+> سعید:
 # ---------------- MERGE ----------------
-
 results = []
-
 for i, article in enumerate(news):
-
     score = scores[i] if i < len(scores) else 0
-
     results.append({
         "title": article["title"],
         "score": score
@@ -264,8 +262,35 @@ for i, article in enumerate(news):
 
 
 # ---------------- SAVE ----------------
-
 with open("crypto_news_sentiment.json", "w", encoding="utf-8") as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
 
 print("✅ saved crypto_news_sentiment.json")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
