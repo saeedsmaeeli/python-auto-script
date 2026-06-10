@@ -268,17 +268,7 @@ for i, article in enumerate(news):
 with open("crypto_news_sentiment.json", "w", encoding="utf-8") as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
 
-print("✅ saved crypto_news_sentiment.json")
-
-
-
-subprocess.run(["git", "config", "--global", "user.name", "github-actions"])
-subprocess.run(["git", "config", "--global", "user.email", "actions@github.com"])
-
-subprocess.run(["git", "add", "crypto_news_sentiment.json"])
-subprocess.run(["git", "commit", "-m", "update data"])
-subprocess.run(["git", "push"])
-
+print(results)
 
 
 
