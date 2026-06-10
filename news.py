@@ -1,4 +1,3 @@
-> سعید:
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
@@ -250,7 +249,6 @@ for line in scores_text.splitlines():
     if line in ["-1", "0", "1"]:
         scores.append(int(line))
 
-> سعید:
 # ---------------- MERGE ----------------
 results = []
 for i, article in enumerate(news):
