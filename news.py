@@ -103,10 +103,9 @@ def scrape_yahoo_first_15():
     return news
 
 
-# ---------------- GPT ANALYSIS ----------------
+# ---------------- PROMPT ----------------
 def build_prompt(news):
-       prompt = """
-You are a CRYPTO MACRO IMPACT CLASSIFIER.
+    prompt = """You are a CRYPTO MACRO IMPACT CLASSIFIER.
 Your task is to evaluate each news item and determine its likely impact on Bitcoin and the broader cryptocurrency market.
 Think ONLY through these 10 drivers:
 Interest Rates
@@ -192,15 +191,14 @@ Valid outputs:
 No explanations. No bullet points. No extra text. Only the scores in the same order as the input news items.
 """
 
-for i, n in enumerate(news):
-prompt += f"\n{i+1}. {n['title']}\n{n['text'][:800]}\n"
+    for i, n in enumerate(news):
+        prompt += f"\n{i+1}. {n['title']}\n{n['text'][:800]}\n"
 
-return prompt
+    return prompt
 
 
-# ---------------- API CALL (WITH RETRY) ----------------
+# ---------------- API CALL (WITH RETRY FIXED) ----------------
 def call_model(prompt):
-
     url = "https://openrouter.ai/api/v1/chat/completions"
     API_KEY = os.getenv("API_KEY_DEEPSEEK")
 
@@ -218,8 +216,8 @@ def call_model(prompt):
         ]
     }
 
-for attempt in range(10):
-    try:
+    for attempt in range(10):
+        try:
             r = requests.post(
                 url,
                 headers=headers,
@@ -229,7 +227,10 @@ for attempt in range(10):
 
             data = r.json()
 
-            return data["choices"][0]["message"]["content"]
+            if "choices" in data:
+                return data["choices"][0]["message"]["content"]
+
+            time.sleep(2)
 
         except:
             time.sleep(2)
@@ -249,8 +250,10 @@ for line in scores_text.splitlines():
     if line in ["-1", "0", "1"]:
         scores.append(int(line))
 
+
 # ---------------- MERGE ----------------
 results = []
+
 for i, article in enumerate(news):
     score = scores[i] if i < len(scores) else 0
     results.append({
@@ -264,6 +267,7 @@ with open("crypto_news_sentiment.json", "w", encoding="utf-8") as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
 
 print("✅ saved crypto_news_sentiment.json")
+
 
 
 
