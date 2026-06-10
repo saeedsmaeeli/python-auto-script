@@ -277,9 +277,9 @@ url = "https://bazarpulse.ir/insert_news.php"
 
 try:
     r = requests.post(url, json=results, timeout=30)
-    print("PHP response:", r.text)
+    print("PHP RESPONSE:", r.text)
 except Exception as e:
-    print("Error sending to PHP:", e)
+    print("SEND ERROR:", e)
 
 
 
