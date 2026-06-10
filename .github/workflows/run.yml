@@ -3,6 +3,9 @@ name: Run News Script
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write   # 👈 اینجا اضافه می‌کنی
+
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -15,7 +18,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install libraries
-        run: pip install -r requirements.txt
+        run: pip install requests beautifulsoup4
 
       - name: Run script
         env:
