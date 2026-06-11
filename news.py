@@ -202,12 +202,9 @@ No explanations. No bullet points. No extra text. Only the scores in the same or
 # ---------------- API CALL (WITH RETRY FIXED) ----------------
 def call_model(prompt):
     url = "https://openrouter.ai/api/v1/chat/completions"
-    API_KEY = os.getenv("API_KEY_DEEPSEEK")
-
-    headers = {
-        "Authorization": f"Bearer {API_KEY}",
-        "Content-Type": "application/json"
-    }
+    
+       headers = {
+    "Authorization": "Bearer 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"    }
 
     payload = {
         "model": "deepseek/deepseek-v4-flash",
