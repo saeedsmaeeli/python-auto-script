@@ -204,7 +204,7 @@ def call_model(prompt):
     url = "https://openrouter.ai/api/v1/chat/completions"
     
        headers = {
-    "Authorization": "Bearer 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"    }
+    "Authorization": "Bearer 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"    }
 
     payload = {
         "model": "deepseek/deepseek-v4-flash",
