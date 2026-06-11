@@ -272,14 +272,24 @@ for i, article in enumerate(news):
 # ---------------- send to server ----------------
 
 
-
 url = "https://bazarpulse.ir/insert_news.php"
 
 try:
-    r = requests.post(url, json=results, timeout=30)
-    print("PHP RESPONSE:", r.text)
+    print("SENDING DATA:")
+    print(json.dumps(results, ensure_ascii=False, indent=2))
+
+    r = requests.post(
+        url,
+        json=results,
+        timeout=30
+    )
+
+    print("STATUS:", r.status_code)
+    print("RESPONSE:")
+    print(r.text)
+
 except Exception as e:
-    print("SEND ERROR:", e)
+    print("SEND ERROR:", str(e))
 
 
 
