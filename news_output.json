@@ -1,0 +1,970 @@
+{
+    "posts": [
+        {
+            "thread": {
+                "uuid": "720bf4a56ab218120cbf96f1118db01dd549d809",
+                "url": "https://ca.news.yahoo.com/m/25a6a429-345e-3138-9f10-7360fba3d0d1/dow-jones-futures-fall-tech.html",
+                "site_full": "ca.news.yahoo.com",
+                "site": "yahoo.com",
+                "site_section": "https://ca.finance.yahoo.com/calendar",
+                "site_categories": [
+                    "arts, culture and entertainment",
+                    "crime, law and justice",
+                    "human interest",
+                    "politics",
+                    "economy, business and finance",
+                    "lifestyle and leisure",
+                    "media"
+                ],
+                "section_title": "Financial Calendars - Yahoo Finance",
+                "title": "Dow Jones Futures Fall, Tech Woes Continue After Whipsaw Losses; CPI Inflation On Tap",
+                "title_full": "Dow Jones Futures Fall, Tech Woes Continue After Whipsaw Losses; CPI Inflation On Tap",
+                "published": "2026-06-10T12:55:00.000+03:00",
+                "replies_count": 0,
+                "participants_count": 1,
+                "site_type": "news",
+                "country": "CA",
+                "main_image": "https://s.yimg.com/lo/mysterio/api/eca0783d597d76fa61bb13b028759dcadf876323b60080b5072157f0049ab5fa/lightyear_networkapi/resizefill_w1000_h563;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2Fdd3d8b33d715764a9a678ecf8d0d54d9",
+                "performance_score": 0,
+                "domain_rank": 56,
+                "domain_rank_updated": "2026-06-08T00:00:00.000+03:00",
+                "social": {
+                    "updated": "2026-06-10T10:19:08.000+00:00",
+                    "facebook": {
+                        "likes": 0,
+                        "comments": 0,
+                        "shares": 0
+                    },
+                    "vk": {
+                        "shares": 0
+                    }
+                }
+            },
+            "uuid": "720bf4a56ab218120cbf96f1118db01dd549d809",
+            "url": "https://ca.news.yahoo.com/m/25a6a429-345e-3138-9f10-7360fba3d0d1/dow-jones-futures-fall-tech.html",
+            "ord_in_thread": 0,
+            "parent_url": null,
+            "author": "ED CARSON",
+            "published": "2026-06-10T12:55:00.000+03:00",
+            "title": "Dow Jones Futures Fall, Tech Woes Continue After Whipsaw Losses; CPI Inflation On Tap",
+            "text": "Full text is unavailable in the news API lite version",
+            "highlightText": "UTC 6 min read Add Yahoo as a preferred source to see more of our stories on <em>Google</em>.... ",
+            "highlightTitle": "",
+            "highlightThreadTitle": "",
+            "language": "english",
+            "sentiment": "negative",
+            "categories": [
+                "Economy, Business and Finance"
+            ],
+            "external_links": [
+                "http://www.investors.com/",
+                "https://s.yimg.com/lo/mysterio/api/69efe5d80b1fc6565b7ceb861949b235cad23d533b0aef579f408983d91ce48c/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-12%2Fdb1dea80-34e8-11eb-ba79-14b55fb17426",
+                "https://s.yimg.com/lo/mysterio/api/cc679f33022b16ef6fab0db3566507b5605453264830023f0d2214ce380d8879/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-12%2Fc3df7230-34e8-11eb-9965-9e24dd439abe",
+                "https://s.yimg.com/os/creatr-uploaded-images/2020-12/c3df7230-34e8-11eb-9965-9e24dd439abe",
+                "https://s.yimg.com/lo/mysterio/api/152d0411059020d60e5bf0b12f9c8c815f7f9f511b91f08cbde43eeb2562eb8b/lightyear_networkapi/resizefill_w976;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2Fdd3d8b33d715764a9a678ecf8d0d54d9",
+                "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-whipsaws-ai-fears-trump-iran-comments-cpi-inflation/?src=A00220",
+                "https://s.yimg.com/lo/mysterio/api/eca0783d597d76fa61bb13b028759dcadf876323b60080b5072157f0049ab5fa/lightyear_networkapi/resizefill_w1000_h563;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2Fdd3d8b33d715764a9a678ecf8d0d54d9",
+                "https://www.google.com/preferences/source?q=investors.com",
+                "https://www.s.yimg.com/lo/mysterio/api/69efe5d80b1fc6565b7ceb861949b235cad23d533b0aef579f408983d91ce48c/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-12%2Fdb1dea80-34e8-11eb-ba79-14b55fb17426",
+                "http://www.investors.com",
+                "https://www.google.com/preferences/source",
+                "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-whipsaws-ai-fears-trump-iran-comments-cpi-inflation/",
+                "https://www.s.yimg.com/lo/mysterio/api/eca0783d597d76fa61bb13b028759dcadf876323b60080b5072157f0049ab5fa/lightyear_networkapi/resizefill_w1000_h563;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2Fdd3d8b33d715764a9a678ecf8d0d54d9",
+                "http://investors.com/",
+                "https://www.s.yimg.com/os/creatr-uploaded-images/2020-12/c3df7230-34e8-11eb-9965-9e24dd439abe",
+                "https://investors.com/market-trend/stock-market-today/dow-jones-futures-whipsaws-ai-fears-trump-iran-comments-cpi-inflation/?src=A00220",
+                "https://google.com/preferences/source?q=investors.com",
+                "https://www.s.yimg.com/lo/mysterio/api/cc679f33022b16ef6fab0db3566507b5605453264830023f0d2214ce380d8879/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-12%2Fc3df7230-34e8-11eb-9965-9e24dd439abe",
+                "https://www.s.yimg.com/lo/mysterio/api/152d0411059020d60e5bf0b12f9c8c815f7f9f511b91f08cbde43eeb2562eb8b/lightyear_networkapi/resizefill_w976;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2Fdd3d8b33d715764a9a678ecf8d0d54d9"
+            ],
+            "external_images": [],
+            "entities": {
+                "persons": [],
+                "organizations": [],
+                "locations": []
+            },
+            "rating": null,
+            "crawled": "2026-06-10T13:18:11.080+03:00",
+            "updated": "2026-06-10T16:43:14.000+00:00"
+        },
+        {
+            "thread": {
+                "uuid": "c649955003f41762ffb7a9048b9496bc19dfcd77",
+                "url": "https://www.yahoo.com/news/videos/bruce-allen-speaks-denver7-inflation-144237711.html",
+                "site_full": "www.yahoo.com",
+                "site": "yahoo.com",
+                "site_section": "https://news.google.com/search?q=about%20when%3A1h&hl=en-US&gl=US&ceid=US%3Aen",
+                "site_categories": [
+                    "human interest",
+                    "weather",
+                    "media",
+                    "politics",
+                    "search_engine",
+                    "war, conflict and unrest",
+                    "crime, law and justice",
+                    "tech",
+                    "disaster and accident"
+                ],
+                "section_title": "Google News - Search",
+                "title": "Bruce Allen speaks with Denver7 about the inflation rate continuing to run at an increasing level.",
+                "title_full": "Bruce Allen speaks with Denver7 about the inflation rate continuing to run at an increasing level.",
+                "published": "2026-06-10T17:42:00.000+03:00",
+                "replies_count": 0,
+                "participants_count": 1,
+                "site_type": "news",
+                "country": "US",
+                "main_image": "https://s.yimg.com/lo/mysterio/api/a3d452e4d0aba4308bcdcb68ec63a6df5dc65717018c0a318b499c6840a69580/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fvideo.kmgh.scripps.com%2F659f1cbaa691429b0ec8d487f3e15368",
+                "performance_score": 0,
+                "domain_rank": 56,
+                "domain_rank_updated": "2026-06-08T00:00:00.000+03:00",
+                "social": {
+                    "updated": "2026-06-10T15:24:26.000+00:00",
+                    "facebook": {
+                        "likes": 0,
+                        "comments": 0,
+                        "shares": 0
+                    },
+                    "vk": {
+                        "shares": 0
+                    }
+                }
+            },
+            "uuid": "c649955003f41762ffb7a9048b9496bc19dfcd77",
+            "url": "https://www.yahoo.com/news/videos/bruce-allen-speaks-denver7-inflation-144237711.html",
+            "ord_in_thread": 0,
+            "parent_url": null,
+            "author": "@YahooCanada",
+            "published": "2026-06-10T17:42:00.000+03:00",
+            "title": "Bruce Allen speaks with Denver7 about the inflation rate continuing to run at an increasing level.",
+            "text": "Full text is unavailable in the news API lite version",
+            "highlightText": "UTC Add Yahoo as a preferred source to see more of our stories on <em>Google</em>.... ",
+            "highlightTitle": "",
+            "highlightThreadTitle": "",
+            "language": "english",
+            "sentiment": "negative",
+            "categories": [
+                "Economy, Business and Finance"
+            ],
+            "external_links": [
+                "https://s.yimg.com/lo/mysterio/api/f1290862d9b53df11bf0efa3bfcddbd8424a065d1e6e9c1abb146ebecfc5b41b/lightyear_networkapi/resizefill_w640;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fvideo.kmgh.scripps.com%2F659f1cbaa691429b0ec8d487f3e15368",
+                "https://s.yimg.com/os/creatr-uploaded-images/2021-02/c3f7cde0-6c9b-11eb-b68f-ca298ae2658a",
+                "https://s.yimg.com/lo/mysterio/api/a3d452e4d0aba4308bcdcb68ec63a6df5dc65717018c0a318b499c6840a69580/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fvideo.kmgh.scripps.com%2F659f1cbaa691429b0ec8d487f3e15368",
+                "https://s.yimg.com/lo/mysterio/api/8d026ef5dcaf3907066ea0de33894ac01b2cdcbe59470c26188d872251edebd3/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2021-02%2Fb7159df0-6c9b-11eb-bf7a-5c05e59f856e",
+                "https://www.google.com/preferences/source?q=ca.news.yahoo.com",
+                "https://s.yimg.com/lo/mysterio/api/469c11f131c297576935cc63d0f5654818994dd2b04dad41cfea15821c48098d/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2021-02%2Fc3f7cde0-6c9b-11eb-b68f-ca298ae2658a",
+                "https://www.thedenverchannel.com/",
+                "https://www.s.yimg.com/lo/mysterio/api/8d026ef5dcaf3907066ea0de33894ac01b2cdcbe59470c26188d872251edebd3/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2021-02%2Fb7159df0-6c9b-11eb-bf7a-5c05e59f856e",
+                "https://www.s.yimg.com/lo/mysterio/api/469c11f131c297576935cc63d0f5654818994dd2b04dad41cfea15821c48098d/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2021-02%2Fc3f7cde0-6c9b-11eb-b68f-ca298ae2658a",
+                "https://www.s.yimg.com/lo/mysterio/api/f1290862d9b53df11bf0efa3bfcddbd8424a065d1e6e9c1abb146ebecfc5b41b/lightyear_networkapi/resizefill_w640;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fvideo.kmgh.scripps.com%2F659f1cbaa691429b0ec8d487f3e15368",
+                "https://www.thedenverchannel.com",
+                "https://www.google.com/preferences/source",
+                "https://www.s.yimg.com/lo/mysterio/api/a3d452e4d0aba4308bcdcb68ec63a6df5dc65717018c0a318b499c6840a69580/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fvideo.kmgh.scripps.com%2F659f1cbaa691429b0ec8d487f3e15368",
+                "https://www.s.yimg.com/os/creatr-uploaded-images/2021-02/c3f7cde0-6c9b-11eb-b68f-ca298ae2658a",
+                "https://google.com/preferences/source?q=ca.news.yahoo.com",
+                "https://thedenverchannel.com/"
+            ],
+            "external_images": [],
+            "entities": {
+                "persons": [],
+                "organizations": [],
+                "locations": []
+            },
+            "rating": null,
+            "crawled": "2026-06-10T18:23:24.370+03:00",
+            "updated": "2026-06-10T23:03:10.000+00:00"
+        },
+        {
+            "thread": {
+                "uuid": "10a3f7a76551283e42c7470ee03e8db50927d516",
+                "url": "https://ca.news.yahoo.com/m/25a6a429-345e-3138-9f10-7360fba3d0d1/dow-jones-futures-tumble-as.html",
+                "site_full": "ca.news.yahoo.com",
+                "site": "yahoo.com",
+                "site_section": "https://ca.finance.yahoo.com/markets/world-indices",
+                "site_categories": [
+                    "economy, business and finance",
+                    "politics",
+                    "human interest",
+                    "lifestyle and leisure",
+                    "media",
+                    "arts, culture and entertainment",
+                    "crime, law and justice"
+                ],
+                "section_title": "World Stock Indexes: prices, charts, percent change, volume, and news - Yahoo Finance",
+                "title": "Dow Jones Futures Tumble As Trump Says Iran Will 'Have To Pay The Price'; CPI Inflation On Tap - Yahoo News Canada",
+                "title_full": "Dow Jones Futures Tumble As Trump Says Iran Will 'Have To Pay The Price'; CPI Inflation On Tap - Yahoo News Canada",
+                "published": "2026-06-10T15:08:00.000+03:00",
+                "replies_count": 0,
+                "participants_count": 1,
+                "site_type": "news",
+                "country": "CA",
+                "main_image": "https://s.yimg.com/lo/mysterio/api/a934c7b25946e2b08636dc6e09fc80eea95e30911b8ea0eec6243cdf853024cc/lightyear_networkapi/resizefill_w1000_h563;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F47aaa52efcced0122c4ef8c46d77f0ab",
+                "performance_score": 0,
+                "domain_rank": 56,
+                "domain_rank_updated": "2026-06-08T00:00:00.000+03:00",
+                "social": {
+                    "updated": "2026-06-10T12:57:03.000+00:00",
+                    "facebook": {
+                        "likes": 0,
+                        "comments": 0,
+                        "shares": 0
+                    },
+                    "vk": {
+                        "shares": 0
+                    }
+                }
+            },
+            "uuid": "10a3f7a76551283e42c7470ee03e8db50927d516",
+            "url": "https://ca.news.yahoo.com/m/25a6a429-345e-3138-9f10-7360fba3d0d1/dow-jones-futures-tumble-as.html",
+            "ord_in_thread": 0,
+            "parent_url": null,
+            "author": "ED CARSON",
+            "published": "2026-06-10T15:08:00.000+03:00",
+            "title": "Dow Jones Futures Tumble As Trump Says Iran Will 'Have To Pay The Price'; CPI Inflation On Tap - Yahoo News Canada",
+            "text": "Full text is unavailable in the news API lite version",
+            "highlightText": "UTC 6 min read Add Yahoo as a preferred source to see more of our stories on <em>Google</em>.... ",
+            "highlightTitle": "",
+            "highlightThreadTitle": "",
+            "language": "english",
+            "sentiment": "negative",
+            "categories": [
+                "Economy, Business and Finance",
+                "Politics"
+            ],
+            "external_links": [
+                "https://www.google.com/preferences/source?q=investors.com",
+                "https://s.yimg.com/lo/mysterio/api/fa2ea52500b03ecd052f1da690d7b8c85f15ef88fa4ed977090b7d5ebe72d62a/lightyear_networkapi/resizefill_w976;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F47aaa52efcced0122c4ef8c46d77f0ab",
+                "https://s.yimg.com/os/creatr-uploaded-images/2020-12/c3df7230-34e8-11eb-9965-9e24dd439abe",
+                "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-whipsaws-ai-fears-trump-iran-comments-cpi-inflation/?src=A00220",
+                "http://www.investors.com/",
+                "https://s.yimg.com/lo/mysterio/api/69efe5d80b1fc6565b7ceb861949b235cad23d533b0aef579f408983d91ce48c/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-12%2Fdb1dea80-34e8-11eb-ba79-14b55fb17426",
+                "https://s.yimg.com/lo/mysterio/api/a934c7b25946e2b08636dc6e09fc80eea95e30911b8ea0eec6243cdf853024cc/lightyear_networkapi/resizefill_w1000_h563;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F47aaa52efcced0122c4ef8c46d77f0ab",
+                "https://s.yimg.com/lo/mysterio/api/cc679f33022b16ef6fab0db3566507b5605453264830023f0d2214ce380d8879/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-12%2Fc3df7230-34e8-11eb-9965-9e24dd439abe",
+                "https://www.s.yimg.com/lo/mysterio/api/69efe5d80b1fc6565b7ceb861949b235cad23d533b0aef579f408983d91ce48c/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-12%2Fdb1dea80-34e8-11eb-ba79-14b55fb17426",
+                "http://investors.com/",
+                "https://www.s.yimg.com/lo/mysterio/api/a934c7b25946e2b08636dc6e09fc80eea95e30911b8ea0eec6243cdf853024cc/lightyear_networkapi/resizefill_w1000_h563;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F47aaa52efcced0122c4ef8c46d77f0ab",
+                "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-whipsaws-ai-fears-trump-iran-comments-cpi-inflation/",
+                "https://google.com/preferences/source?q=investors.com",
+                "https://www.s.yimg.com/lo/mysterio/api/fa2ea52500b03ecd052f1da690d7b8c85f15ef88fa4ed977090b7d5ebe72d62a/lightyear_networkapi/resizefill_w976;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F47aaa52efcced0122c4ef8c46d77f0ab",
+                "http://www.investors.com",
+                "https://www.google.com/preferences/source",
+                "https://investors.com/market-trend/stock-market-today/dow-jones-futures-whipsaws-ai-fears-trump-iran-comments-cpi-inflation/?src=A00220",
+                "https://www.s.yimg.com/lo/mysterio/api/cc679f33022b16ef6fab0db3566507b5605453264830023f0d2214ce380d8879/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-12%2Fc3df7230-34e8-11eb-9965-9e24dd439abe",
+                "https://www.s.yimg.com/os/creatr-uploaded-images/2020-12/c3df7230-34e8-11eb-9965-9e24dd439abe"
+            ],
+            "external_images": [],
+            "entities": {
+                "persons": [],
+                "organizations": [],
+                "locations": []
+            },
+            "rating": null,
+            "crawled": "2026-06-10T15:56:28.951+03:00",
+            "updated": "2026-06-11T05:00:54.000+00:00"
+        },
+        {
+            "thread": {
+                "uuid": "94298aed35d0b23aca483a3fa198cb32abd25a86",
+                "url": "https://finance.yahoo.com/sectors/technology/article/oracle-q4-earnings-disappoint-on-cloud-revenue-stock-falls-6-221337126.html",
+                "site_full": "finance.yahoo.com",
+                "site": "yahoo.com",
+                "site_section": "https://ca.sports.yahoo.com/rss/",
+                "site_categories": [
+                    "economy, business and finance",
+                    "stocks",
+                    "science and technology",
+                    "investing",
+                    "financial_news",
+                    "finance"
+                ],
+                "section_title": "Yahoo Canada Sports - Sports News, Scores, Rumours, Fantasy Games, and more",
+                "title": "Oracle Q4 earnings disappoint on cloud revenue, stock falls 6%",
+                "title_full": "Oracle Q4 earnings disappoint on cloud revenue, stock falls 6%",
+                "published": "2026-06-10T23:11:00.000+03:00",
+                "replies_count": 0,
+                "participants_count": 1,
+                "site_type": "news",
+                "country": "US",
+                "main_image": "https://s.yimg.com/ny/api/res/1.2/_MhNNBAbc2_WSD9PA9TKNg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02ODM-/https://s.yimg.com/os/creatr-uploaded-images/2021-12/a636f2e0-61fa-11ec-9b71-006eb22101ba",
+                "performance_score": 0,
+                "domain_rank": 56,
+                "domain_rank_updated": "2026-06-08T00:00:00.000+03:00",
+                "social": {
+                    "updated": "2026-06-10T20:17:13.000+00:00",
+                    "facebook": {
+                        "likes": 0,
+                        "comments": 0,
+                        "shares": 0
+                    },
+                    "vk": {
+                        "shares": 0
+                    }
+                }
+            },
+            "uuid": "94298aed35d0b23aca483a3fa198cb32abd25a86",
+            "url": "https://finance.yahoo.com/sectors/technology/article/oracle-q4-earnings-disappoint-on-cloud-revenue-stock-falls-6-221337126.html",
+            "ord_in_thread": 0,
+            "parent_url": null,
+            "author": "Daniel Howley",
+            "published": "2026-06-10T23:11:00.000+03:00",
+            "title": "Oracle Q4 earnings disappoint on cloud revenue, stock falls 6%",
+            "text": "Full text is unavailable in the news API lite version",
+            "highlightText": "• Oracle's stock has outperformed Amazon and Microsoft over the last 12 months, but underperformed <em>Google</em>... ",
+            "highlightTitle": "",
+            "highlightThreadTitle": "",
+            "language": "english",
+            "sentiment": "negative",
+            "categories": [
+                "Economy, Business and Finance"
+            ],
+            "external_links": [
+                "https://s.yimg.com/ny/api/res/1.2/KQBc59hxTk7aJ2oObad03g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0Ng--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2021-12/a636f2e0-61fa-11ec-9b71-006eb22101ba",
+                "https://s.yimg.com/ny/api/res/1.2/.TKmfDjUhQzyZYzymLZogg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIzMjtoPTQ4/https://s.yimg.com/os/creatr-uploaded-images/2020-12/2361f4d0-3412-11eb-b7fe-9643377bdb81",
+                "https://preferences.newsletters.yahoo.net/subscribe/financetech?ncid=366&amp;.tsrc=366&amp;ncid=crm_-1410821-20240925-1&amp;bt_user_id=mr7cq8GBSOV6K8R5o6dQWsd8mroARct8lRG9zZ1%2FPepe5dyO67kJeyFk91MnkY38hkZgGBUtLOlt6SaTIZisU5i9%2FrMdsGFSavy5ysJLsER9VP7WMAHQxh4MBFN6ZrNF&amp;bt_ts=1727295067360",
+                "https://s.yimg.com/ny/api/res/1.2/nt5dGx4HiuaxJyO1G5ipxw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIzMjtoPTQ4/https://s.yimg.com/os/creatr-uploaded-images/2020-12/02246f50-3412-11eb-bfdd-de89f8b3b8b8",
+                "https://twitter.com/danielhowley",
+                "https://s.yimg.com/ny/api/res/1.2/RcD2tahRD1nyE9jbDxJfDg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTgwO2g9ODA-/https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fimage_uri%3Dhttps%253A%252F%252Fo.aolcdn.com%252Fimages%252Fdims%253Fimage_uri%253Dhttps%25253A%25252F%25252Fo.aolcdn.com%25252Fimages%25252Fdims%25253Fimage_uri%25253Dhttps%2525253A%2525252F%2525252Fo.aolcdn.com%2525252Fimages%2525252Fdims%2525253Fimage_uri%2525253Dhttps%252525253A%252525252F%252525252Fs.yimg.com%252525252Fos%252525",
+                "https://www.s.yimg.com/ny/api/res/1.2/KQBc59hxTk7aJ2oObad03g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0Ng--/https://www.media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2021-12/a636f2e0-61fa-11ec-9b71-006eb22101ba",
+                "https://www.s.yimg.com/ny/api/res/1.2/.TKmfDjUhQzyZYzymLZogg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIzMjtoPTQ4/https://www.s.yimg.com/os/creatr-uploaded-images/2020-12/2361f4d0-3412-11eb-b7fe-9643377bdb81",
+                "https://preferences.newsletters.yahoo.net/subscribe/financetech",
+                "https://s.yimg.com/ny/api/res/1.2/RcD2tahRD1nyE9jbDxJfDg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTgwO2g9ODA-/https://o.aolcdn.com/images/dims",
+                "https://www.s.yimg.com/ny/api/res/1.2/RcD2tahRD1nyE9jbDxJfDg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTgwO2g9ODA-/https://www.o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fimage_uri%3Dhttps%253A%252F%252Fo.aolcdn.com%252Fimages%252Fdims%253Fimage_uri%253Dhttps%25253A%25252F%25252Fo.aolcdn.com%25252Fimages%25252Fdims%25253Fimage_uri%25253Dhttps%2525253A%2525252F%2525252Fo.aolcdn.com%2525252Fimages%2525252Fdims%2525253Fimage_uri%2525253Dhttps%252525253A%252525252F%252525252Fs.yimg.com%252525252Fos%252525",
+                "https://www.twitter.com/danielhowley",
+                "https://www.preferences.newsletters.yahoo.net/subscribe/financetech?ncid=366&amp;.tsrc=366&amp;ncid=crm_-1410821-20240925-1&amp;bt_user_id=mr7cq8GBSOV6K8R5o6dQWsd8mroARct8lRG9zZ1%2FPepe5dyO67kJeyFk91MnkY38hkZgGBUtLOlt6SaTIZisU5i9%2FrMdsGFSavy5ysJLsER9VP7WMAHQxh4MBFN6ZrNF&amp;bt_ts=1727295067360",
+                "https://www.s.yimg.com/ny/api/res/1.2/nt5dGx4HiuaxJyO1G5ipxw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIzMjtoPTQ4/https://www.s.yimg.com/os/creatr-uploaded-images/2020-12/02246f50-3412-11eb-bfdd-de89f8b3b8b8"
+            ],
+            "external_images": [],
+            "entities": {
+                "persons": [],
+                "organizations": [],
+                "locations": []
+            },
+            "rating": null,
+            "crawled": "2026-06-10T23:16:56.046+03:00",
+            "updated": "2026-06-11T05:12:43.000+00:00"
+        },
+        {
+            "thread": {
+                "uuid": "6ee0c1d3b70a22dd5b79eced044d3839b5a22839",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-e-l-f-153849070.html",
+                "site_full": "finance.yahoo.com",
+                "site": "yahoo.com",
+                "site_section": "https://ca.sports.yahoo.com/rss",
+                "site_categories": [
+                    "science and technology",
+                    "stocks",
+                    "financial_news",
+                    "economy, business and finance",
+                    "finance",
+                    "investing"
+                ],
+                "section_title": "Yahoo Canada Sports - Sports News, Scores, Rumours, Fantasy Games, and more",
+                "title": "Jim Cramer on e.l.f. Beauty: \"I Don't Want to Touch It\"",
+                "title_full": "Jim Cramer on e.l.f. Beauty: \"I Don't Want to Touch It\"",
+                "published": "2026-06-10T18:38:00.000+03:00",
+                "replies_count": 0,
+                "participants_count": 1,
+                "site_type": "news",
+                "country": "US",
+                "main_image": "https://s.yimg.com/ny/api/res/1.2/EC_hGsJ3bI0llxpOPkLK4w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/insidermonkey.com/c517b12f3958826ffde57cfe2fa1093a",
+                "performance_score": 0,
+                "domain_rank": 56,
+                "domain_rank_updated": "2026-06-08T00:00:00.000+03:00",
+                "social": {
+                    "updated": "2026-06-10T16:14:18.000+00:00",
+                    "facebook": {
+                        "likes": 0,
+                        "comments": 0,
+                        "shares": 0
+                    },
+                    "vk": {
+                        "shares": 0
+                    }
+                }
+            },
+            "uuid": "6ee0c1d3b70a22dd5b79eced044d3839b5a22839",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-e-l-f-153849070.html",
+            "ord_in_thread": 0,
+            "parent_url": null,
+            "author": "Syeda Seirut Javed",
+            "published": "2026-06-10T18:38:00.000+03:00",
+            "title": "Jim Cramer on e.l.f. Beauty: \"I Don't Want to Touch It\"",
+            "text": "Full text is unavailable in the news API lite version",
+            "highlightText": "Follow Insider Monkey on <em>Google</em> News .... ",
+            "highlightTitle": "",
+            "highlightThreadTitle": "",
+            "language": "english",
+            "sentiment": "negative",
+            "categories": [
+                "Economy, Business and Finance"
+            ],
+            "external_links": [
+                "https://s.yimg.com/ny/api/res/1.2/KKtvX9V3xwQZgQ.kBq5i6Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg-/https://media.zenfs.com/en/insidermonkey.com/c517b12f3958826ffde57cfe2fa1093a",
+                "https://www.insidermonkey.com/blog/15-stocks-that-will-make-you-rich-in-10-years-1711641/",
+                "https://news.google.com/publications/CAAqLQgKIidDQklTRndnTWFoTUtFV2x1YzJsa1pYSnRiMjVyWlhrdVkyOXRLQUFQAQ?hl=en-US&gl=US&ceid=US%3Aen",
+                "https://www.insidermonkey.com/blog/jim-cramers-15-stock-calls-nvidia-and-costco-and-caution-about-the-market-1778456/",
+                "https://www.insidermonkey.com/blog/33-stocks-that-should-double-in-3-years-1709437/",
+                "https://s.yimg.com/ny/api/res/1.2/N.viQX5DhGk5D918qBlv7Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNjtoPTQ4/https://s.yimg.com/os/creatr-uploaded-images/2020-12/f3b5d520-34e4-11eb-9fbe-081115794bd2",
+                "https://www.insidermonkey.com/blog/three-megatrends-one-overlooked-stock-massive-upside-1548959/",
+                "https://s.yimg.com/ny/api/res/1.2/ztUvb5bBfSnEzDduOrwWyA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNjtoPTQ4/https://s.yimg.com/os/creatr-uploaded-images/2020-12/d7df1000-34e4-11eb-b6ae-ac87660fe5ee",
+                "http://www.insidermonkey.com",
+                "https://www.s.yimg.com/ny/api/res/1.2/N.viQX5DhGk5D918qBlv7Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNjtoPTQ4/https://www.s.yimg.com/os/creatr-uploaded-images/2020-12/f3b5d520-34e4-11eb-9fbe-081115794bd2",
+                "http://insidermonkey.com",
+                "https://www.insidermonkey.com/blog/33-stocks-that-should-double-in-3-years-1709437",
+                "https://insidermonkey.com/blog/three-megatrends-one-overlooked-stock-massive-upside-1548959/",
+                "https://www.insidermonkey.com/blog/three-megatrends-one-overlooked-stock-massive-upside-1548959",
+                "https://www.insidermonkey.com/blog/jim-cramers-15-stock-calls-nvidia-and-costco-and-caution-about-the-market-1778456",
+                "https://insidermonkey.com/blog/jim-cramers-15-stock-calls-nvidia-and-costco-and-caution-about-the-market-1778456/",
+                "https://insidermonkey.com/blog/33-stocks-that-should-double-in-3-years-1709437/",
+                "https://www.news.google.com/publications/CAAqLQgKIidDQklTRndnTWFoTUtFV2x1YzJsa1pYSnRiMjVyWlhrdVkyOXRLQUFQAQ?hl=en-US&gl=US&ceid=US%3Aen",
+                "https://news.google.com/publications/CAAqLQgKIidDQklTRndnTWFoTUtFV2x1YzJsa1pYSnRiMjVyWlhrdVkyOXRLQUFQAQ",
+                "https://insidermonkey.com/blog/15-stocks-that-will-make-you-rich-in-10-years-1711641/",
+                "https://www.insidermonkey.com/blog/15-stocks-that-will-make-you-rich-in-10-years-1711641",
+                "https://www.s.yimg.com/ny/api/res/1.2/ztUvb5bBfSnEzDduOrwWyA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNjtoPTQ4/https://www.s.yimg.com/os/creatr-uploaded-images/2020-12/d7df1000-34e4-11eb-b6ae-ac87660fe5ee",
+                "https://www.s.yimg.com/ny/api/res/1.2/KKtvX9V3xwQZgQ.kBq5i6Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg-/https://www.media.zenfs.com/en/insidermonkey.com/c517b12f3958826ffde57cfe2fa1093a"
+            ],
+            "external_images": [],
+            "entities": {
+                "persons": [],
+                "organizations": [],
+                "locations": []
+            },
+            "rating": null,
+            "crawled": "2026-06-10T19:13:44.050+03:00",
+            "updated": "2026-06-10T23:59:22.000+00:00"
+        },
+        {
+            "thread": {
+                "uuid": "3a1139b9fc85e2880a0db0bb90254f585e2b0207",
+                "url": "https://autos.yahoo.com/policy-and-environment/articles/nissan-dealers-cheated-yorkers-millions-200000424.html",
+                "site_full": "autos.yahoo.com",
+                "site": "yahoo.com",
+                "site_section": "https://autos.yahoo.com/policy-and-environment",
+                "site_categories": [
+                    "economy, business and finance",
+                    "media",
+                    "auto_racing",
+                    "sports",
+                    "lifestyle and leisure",
+                    "science and technology"
+                ],
+                "section_title": "EV Policy, Environmental Rules and Automotive Legislation",
+                "title": "Nissan Dealers Cheated New Yorkers Out of Millions, Attorney General Says, Now They'll Get Justice",
+                "title_full": "Nissan Dealers Cheated New Yorkers Out of Millions, Attorney General Says, Now They'll Get Justice",
+                "published": "2026-06-10T23:00:00.000+03:00",
+                "replies_count": 0,
+                "participants_count": 1,
+                "site_type": "news",
+                "country": "US",
+                "main_image": "https://s.yimg.com/lo/mysterio/api/25c25cc9870944df0bf6f489ccd8446133ccd8fedef2b38f984410f56c76c745/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Froad_track_223%2F4ae56a8ae9d78dbab199570f366f505f",
+                "performance_score": 0,
+                "domain_rank": 56,
+                "domain_rank_updated": "2026-06-08T00:00:00.000+03:00",
+                "social": {
+                    "updated": "2026-06-10T22:16:54.000+00:00",
+                    "facebook": {
+                        "likes": 0,
+                        "comments": 0,
+                        "shares": 0
+                    },
+                    "vk": {
+                        "shares": 0
+                    }
+                }
+            },
+            "uuid": "3a1139b9fc85e2880a0db0bb90254f585e2b0207",
+            "url": "https://autos.yahoo.com/policy-and-environment/articles/nissan-dealers-cheated-yorkers-millions-200000424.html",
+            "ord_in_thread": 0,
+            "parent_url": null,
+            "author": "Joe Kucinski",
+            "published": "2026-06-10T23:00:00.000+03:00",
+            "title": "Nissan Dealers Cheated New Yorkers Out of Millions, Attorney General Says, Now They'll Get Justice",
+            "text": "Full text is unavailable in the news API lite version",
+            "highlightText": "Now They'll Get Justice Road & Track Follow Joe Kucinski Wed, June 10, 2026 at 8:00 PM UTC\nAdd us on <em>Google</em>... ",
+            "highlightTitle": "",
+            "highlightThreadTitle": "",
+            "language": "english",
+            "sentiment": "negative",
+            "categories": [
+                "Economy, Business and Finance"
+            ],
+            "external_links": [
+                "https://ag.ny.gov/press-release/2026/attorney-general-james-secures-refunds-all-new-yorkers-cheated-nissan",
+                "https://www.roadandtrack.com/news/a71546699/new-yorkers-cheated-millions-of-dollars-nissan-dealerships-due-refunds-attorney-general/",
+                "https://www.google.com/preferences/source?q=autos.yahoo.com",
+                "http://www.roadandtrack.com/",
+                "https://s.yimg.com/os/creatr-uploaded-images/2020-11/f7ccf630-2f61-11eb-bef3-273a3b072b3b",
+                "https://s.yimg.com/lo/mysterio/api/b1870d06ae959d0121111afc287ee8fd4f6c1ae5ab150520328e3d937327bd83/lightyear_networkapi/resizefill_w976;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Froad_track_223%2F4ae56a8ae9d78dbab199570f366f505f",
+                "https://s.yimg.com/lo/mysterio/api/25c25cc9870944df0bf6f489ccd8446133ccd8fedef2b38f984410f56c76c745/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Froad_track_223%2F4ae56a8ae9d78dbab199570f366f505f",
+                "https://s.yimg.com/lo/mysterio/api/1da289db22b11656676ac74636f511c62b72b7529567baf67cd5407cd7d5ed4d/lightyear_networkapi/resizefill_w976;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Froad_track_223%2F999cd3ff8b6a05696a6c8e39fcb5877a",
+                "https://ag.ny.gov/sites/default/files/settlements-agreements/nissan-motor-acceptance-company-llc-assurance-of-discontinuance-2026.pdf",
+                "https://www.ag.ny.gov/press-release/2026/attorney-general-james-secures-refunds-all-new-yorkers-cheated-nissan",
+                "https://google.com/preferences/source?q=autos.yahoo.com",
+                "https://www.google.com/preferences/source",
+                "https://roadandtrack.com/news/a71546699/new-yorkers-cheated-millions-of-dollars-nissan-dealerships-due-refunds-attorney-general/",
+                "https://www.s.yimg.com/os/creatr-uploaded-images/2020-11/f7ccf630-2f61-11eb-bef3-273a3b072b3b",
+                "http://www.roadandtrack.com",
+                "https://www.s.yimg.com/lo/mysterio/api/1da289db22b11656676ac74636f511c62b72b7529567baf67cd5407cd7d5ed4d/lightyear_networkapi/resizefill_w976;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Froad_track_223%2F999cd3ff8b6a05696a6c8e39fcb5877a",
+                "https://www.s.yimg.com/lo/mysterio/api/25c25cc9870944df0bf6f489ccd8446133ccd8fedef2b38f984410f56c76c745/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Froad_track_223%2F4ae56a8ae9d78dbab199570f366f505f",
+                "https://www.s.yimg.com/lo/mysterio/api/b1870d06ae959d0121111afc287ee8fd4f6c1ae5ab150520328e3d937327bd83/lightyear_networkapi/resizefill_w976;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Froad_track_223%2F4ae56a8ae9d78dbab199570f366f505f",
+                "https://www.roadandtrack.com/news/a71546699/new-yorkers-cheated-millions-of-dollars-nissan-dealerships-due-refunds-attorney-general",
+                "http://roadandtrack.com/",
+                "https://www.ag.ny.gov/sites/default/files/settlements-agreements/nissan-motor-acceptance-company-llc-assurance-of-discontinuance-2026.pdf"
+            ],
+            "external_images": [],
+            "entities": {
+                "persons": [
+                    {
+                        "name": "Letitia James",
+                        "sentiment": "none"
+                    },
+                    {
+                        "name": "Anna Barclay",
+                        "sentiment": "none"
+                    }
+                ],
+                "organizations": [
+                    {
+                        "name": "Getty Images",
+                        "sentiment": "none"
+                    },
+                    {
+                        "name": "Google",
+                        "sentiment": "none"
+                    },
+                    {
+                        "name": "A. G.",
+                        "sentiment": "none"
+                    },
+                    {
+                        "name": "Nissan",
+                        "sentiment": "none"
+                    }
+                ],
+                "locations": [
+                    {
+                        "name": "New York",
+                        "sentiment": "none"
+                    }
+                ]
+            },
+            "rating": null,
+            "crawled": "2026-06-11T01:15:58.372+03:00",
+            "updated": "2026-06-11T07:25:09.000+00:00"
+        },
+        {
+            "thread": {
+                "uuid": "5b58d54e13aee5f76d0aac8856d294b371f8b35b",
+                "url": "https://tech.yahoo.com/ai/copilot/articles/satya-nadella-trying-rein-tokenmaxxers-041842829.html",
+                "site_full": "tech.yahoo.com",
+                "site": "yahoo.com",
+                "site_section": "https://tech.yahoo.com/ai",
+                "site_categories": [
+                    "science and technology",
+                    "economy, business and finance",
+                    "arts, culture and entertainment",
+                    "lifestyle and leisure"
+                ],
+                "section_title": "AI News, Updates, Products and Reviews | Yahoo Tech",
+                "title": "Satya Nadella is trying to rein in the tokenmaxxers at Microsoft",
+                "title_full": "Satya Nadella is trying to rein in the tokenmaxxers at Microsoft",
+                "published": "2026-06-11T07:18:00.000+03:00",
+                "replies_count": 0,
+                "participants_count": 1,
+                "site_type": "news",
+                "country": "US",
+                "main_image": "https://s.yimg.com/lo/mysterio/api/d0635cf1a111820447107e01495a5a5bdbad1f468b1a87bb753912be6c243b74/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbusiness_insider_consolidated_articles_886%2F260f06ef608b670d9e34e137179d6cb2",
+                "performance_score": 0,
+                "domain_rank": 56,
+                "domain_rank_updated": "2026-06-08T00:00:00.000+03:00",
+                "social": {
+                    "updated": "2026-06-11T05:05:02.000+00:00",
+                    "facebook": {
+                        "likes": 0,
+                        "comments": 0,
+                        "shares": 0
+                    },
+                    "vk": {
+                        "shares": 0
+                    }
+                }
+            },
+            "uuid": "5b58d54e13aee5f76d0aac8856d294b371f8b35b",
+            "url": "https://tech.yahoo.com/ai/copilot/articles/satya-nadella-trying-rein-tokenmaxxers-041842829.html",
+            "ord_in_thread": 0,
+            "parent_url": null,
+            "author": "Rya Jetha",
+            "published": "2026-06-11T07:18:00.000+03:00",
+            "title": "Satya Nadella is trying to rein in the tokenmaxxers at Microsoft",
+            "text": "Full text is unavailable in the news API lite version",
+            "highlightText": "tokenmaxxers at Microsoft Business Insider Follow Rya Jetha Thu, June 11, 2026 at 4:18 AM UTC\nAdd us on <em>Google</em>... ",
+            "highlightTitle": "",
+            "highlightThreadTitle": "",
+            "language": "english",
+            "sentiment": "negative",
+            "categories": [
+                "Arts, Culture and Entertainment",
+                "Economy, Business and Finance"
+            ],
+            "external_links": [
+                "https://s.yimg.com/lo/mysterio/api/d0635cf1a111820447107e01495a5a5bdbad1f468b1a87bb753912be6c243b74/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbusiness_insider_consolidated_articles_886%2F260f06ef608b670d9e34e137179d6cb2",
+                "https://www.businessinsider.com/ai-companies-raising-prices-internal-token-limits-openai-anthropic-ipo-2026-6?utm_medium=syndication&utm_source=yahoo&utm_medium=referral&utm_source=yahoocom",
+                "https://www.businessinsider.com/satya-nadella-tokenmaxxing-microsoft-rein-in-2026-6",
+                "https://www.businessinsider.com/microsoft-promoted-new-ceo-of-commercial-business-compete-in-ai-2025-10?utm_medium=syndication&utm_source=yahoo&utm_medium=referral&utm_source=yahoocom",
+                "https://www.businessinsider.com/",
+                "https://www.businessinsider.com/nadella-taps-adviser-rethink-new-economics-ai-memo-shows-2025-11?utm_medium=syndication&utm_source=yahoo&utm_medium=referral&utm_source=yahoocom",
+                "https://s.yimg.com/os/creatr-uploaded-images/2026-01/455be6f0-f194-11f0-b877-da875de334fc",
+                "https://www.businessinsider.com/satya-nadella-microsoft-ai-leadership-reset-2026-5?utm_medium=syndication&utm_source=yahoo&utm_medium=referral&utm_source=yahoocom",
+                "https://www.google.com/preferences/source?q=tech.yahoo.com",
+                "https://www.s.yimg.com/os/creatr-uploaded-images/2026-01/455be6f0-f194-11f0-b877-da875de334fc",
+                "https://businessinsider.com/satya-nadella-tokenmaxxing-microsoft-rein-in-2026-6",
+                "https://www.google.com/preferences/source",
+                "https://www.businessinsider.com/ai-companies-raising-prices-internal-token-limits-openai-anthropic-ipo-2026-6",
+                "https://businessinsider.com/satya-nadella-microsoft-ai-leadership-reset-2026-5?utm_medium=syndication&utm_source=yahoo&utm_medium=referral&utm_source=yahoocom",
+                "https://www.businessinsider.com/satya-nadella-microsoft-ai-leadership-reset-2026-5",
+                "https://www.s.yimg.com/lo/mysterio/api/d0635cf1a111820447107e01495a5a5bdbad1f468b1a87bb753912be6c243b74/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbusiness_insider_consolidated_articles_886%2F260f06ef608b670d9e34e137179d6cb2",
+                "https://www.businessinsider.com",
+                "https://google.com/preferences/source?q=tech.yahoo.com",
+                "https://businessinsider.com/microsoft-promoted-new-ceo-of-commercial-business-compete-in-ai-2025-10?utm_medium=syndication&utm_source=yahoo&utm_medium=referral&utm_source=yahoocom",
+                "https://businessinsider.com/ai-companies-raising-prices-internal-token-limits-openai-anthropic-ipo-2026-6?utm_medium=syndication&utm_source=yahoo&utm_medium=referral&utm_source=yahoocom",
+                "https://www.businessinsider.com/microsoft-promoted-new-ceo-of-commercial-business-compete-in-ai-2025-10",
+                "https://businessinsider.com/nadella-taps-adviser-rethink-new-economics-ai-memo-shows-2025-11?utm_medium=syndication&utm_source=yahoo&utm_medium=referral&utm_source=yahoocom",
+                "https://businessinsider.com/",
+                "https://www.businessinsider.com/nadella-taps-adviser-rethink-new-economics-ai-memo-shows-2025-11"
+            ],
+            "external_images": [],
+            "entities": {
+                "persons": [],
+                "organizations": [],
+                "locations": []
+            },
+            "rating": null,
+            "crawled": "2026-06-11T08:04:57.046+03:00",
+            "updated": "2026-06-11T13:35:59.000+00:00"
+        },
+        {
+            "thread": {
+                "uuid": "e2606bdc3362d5509739199c32bc9abc716d4183",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-slipped-concerns-over-143539840.html",
+                "site_full": "finance.yahoo.com",
+                "site": "yahoo.com",
+                "site_section": "https://ca.sports.yahoo.com/rss",
+                "site_categories": [
+                    "investing",
+                    "science and technology",
+                    "stocks",
+                    "economy, business and finance",
+                    "finance",
+                    "financial_news"
+                ],
+                "section_title": "Yahoo Canada Sports - Sports News, Scores, Rumours, Fantasy Games, and more",
+                "title": "Alphabet (GOOG) Slipped on Concerns Over Increased Capex and AI Monetization",
+                "title_full": "Alphabet (GOOG) Slipped on Concerns Over Increased Capex and AI Monetization",
+                "published": "2026-06-11T17:35:00.000+03:00",
+                "replies_count": 0,
+                "participants_count": 1,
+                "site_type": "news",
+                "country": "US",
+                "main_image": "https://s.yimg.com/os/en/insidermonkey.com/cf6d2f879575432f39eec460d8fb6fb8",
+                "performance_score": 0,
+                "domain_rank": 56,
+                "domain_rank_updated": "2026-06-08T00:00:00.000+03:00",
+                "social": {
+                    "updated": "2026-06-11T18:09:41.972+03:00",
+                    "facebook": {
+                        "likes": 0,
+                        "comments": 0,
+                        "shares": 0
+                    },
+                    "vk": {
+                        "shares": 0
+                    }
+                }
+            },
+            "uuid": "e2606bdc3362d5509739199c32bc9abc716d4183",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-slipped-concerns-over-143539840.html",
+            "ord_in_thread": 0,
+            "parent_url": null,
+            "author": "Soumya Eswaran",
+            "published": "2026-06-11T17:35:00.000+03:00",
+            "title": "Alphabet (GOOG) Slipped on Concerns Over Increased Capex and AI Monetization",
+            "text": "Full text is unavailable in the news API lite version",
+            "highlightText": "(NASDAQ:GOOG), the parent company of <em>Google</em>, offers various platforms and services, including online... ",
+            "highlightTitle": "",
+            "highlightThreadTitle": "",
+            "language": "english",
+            "sentiment": "negative",
+            "categories": [
+                "Economy, Business and Finance"
+            ],
+            "external_links": [
+                "https://www.insidermonkey.com/blog/three-megatrends-one-overlooked-stock-massive-upside-1548959/",
+                "https://s.yimg.com/ny/api/res/1.2/Tsq_VmI3Urkw3HsCmrO5Kw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM1OA--/https://media.zenfs.com/en/insidermonkey.com/cf6d2f879575432f39eec460d8fb6fb8",
+                "https://www.insidermonkey.com/blog/10-good-stocks-to-invest-in-now-1779009/",
+                "https://www.insidermonkey.com/blog/alphabet-inc-nasdaqgoogl-q4-2025-earnings-call-transcript-1689466/",
+                "https://s.yimg.com/ny/api/res/1.2/ag8HEdfBn5ldhBXH2sTmnw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEwNDtoPTQw/https://s.yimg.com/os/creatr-uploaded-images/2020-12/d7df1000-34e4-11eb-b6ae-ac87660fe5ee",
+                "https://www.insidermonkey.com/blog/london-company-large-cap-strategys-q1-2026-investor-letter-1779497/",
+                "https://www.insidermonkey.com/blog/alphabet-goog-slipped-on-concerns-over-increased-capex-and-ai-monetization-1779511/",
+                "https://www.insidermonkey.com/blog/40-most-popular-stocks-among-hedge-funds-heading-into-2026-1706787/",
+                "https://www.insidermonkey.com/blog/15-stocks-that-will-make-you-rich-in-10-years-1711641/",
+                "https://www.insidermonkey.com/blog/hedge-fund-investor-letters-q1-2026-1734297/",
+                "https://www.insidermonkey.com/blog/33-stocks-that-should-double-in-3-years-1709437/",
+                "https://s.yimg.com/ny/api/res/1.2/lJhocD4CItPCgYasg8EILQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEwNDtoPTQw/https://s.yimg.com/os/creatr-uploaded-images/2020-12/f3b5d520-34e4-11eb-9fbe-081115794bd2",
+                "https://www.insidermonkey.com/blog/alphabet-inc-nasdaqgoogl-q1-2026-earnings-call-transcript-1751029/",
+                "https://www.insidermonkey.com/institutional-investor/london-co-of-virginia/597823/",
+                "http://www.insidermonkey.com",
+                "https://www.insidermonkey.com/blog/alphabet-inc-nasdaqgoogl-q4-2025-earnings-call-transcript-1689466",
+                "https://www.insidermonkey.com/blog/three-megatrends-one-overlooked-stock-massive-upside-1548959",
+                "https://insidermonkey.com/blog/alphabet-inc-nasdaqgoogl-q4-2025-earnings-call-transcript-1689466/",
+                "https://insidermonkey.com/blog/33-stocks-that-should-double-in-3-years-1709437/",
+                "https://insidermonkey.com/blog/alphabet-goog-slipped-on-concerns-over-increased-capex-and-ai-monetization-1779511/",
+                "https://www.insidermonkey.com/blog/15-stocks-that-will-make-you-rich-in-10-years-1711641",
+                "https://insidermonkey.com/blog/10-good-stocks-to-invest-in-now-1779009/",
+                "http://insidermonkey.com",
+                "https://insidermonkey.com/blog/hedge-fund-investor-letters-q1-2026-1734297/",
+                "https://insidermonkey.com/blog/15-stocks-that-will-make-you-rich-in-10-years-1711641/",
+                "https://www.insidermonkey.com/blog/hedge-fund-investor-letters-q1-2026-1734297",
+                "https://insidermonkey.com/blog/three-megatrends-one-overlooked-stock-massive-upside-1548959/",
+                "https://www.insidermonkey.com/blog/alphabet-inc-nasdaqgoogl-q1-2026-earnings-call-transcript-1751029",
+                "https://www.insidermonkey.com/blog/33-stocks-that-should-double-in-3-years-1709437",
+                "https://www.insidermonkey.com/blog/alphabet-goog-slipped-on-concerns-over-increased-capex-and-ai-monetization-1779511",
+                "https://www.insidermonkey.com/blog/london-company-large-cap-strategys-q1-2026-investor-letter-1779497",
+                "https://www.insidermonkey.com/blog/10-good-stocks-to-invest-in-now-1779009",
+                "https://insidermonkey.com/institutional-investor/london-co-of-virginia/597823/",
+                "https://www.s.yimg.com/ny/api/res/1.2/lJhocD4CItPCgYasg8EILQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEwNDtoPTQw/https://www.s.yimg.com/os/creatr-uploaded-images/2020-12/f3b5d520-34e4-11eb-9fbe-081115794bd2",
+                "https://www.s.yimg.com/ny/api/res/1.2/Tsq_VmI3Urkw3HsCmrO5Kw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM1OA--/https://www.media.zenfs.com/en/insidermonkey.com/cf6d2f879575432f39eec460d8fb6fb8",
+                "https://insidermonkey.com/blog/40-most-popular-stocks-among-hedge-funds-heading-into-2026-1706787/",
+                "https://www.insidermonkey.com/institutional-investor/london-co-of-virginia/597823",
+                "https://www.insidermonkey.com/blog/40-most-popular-stocks-among-hedge-funds-heading-into-2026-1706787",
+                "https://insidermonkey.com/blog/london-company-large-cap-strategys-q1-2026-investor-letter-1779497/",
+                "https://insidermonkey.com/blog/alphabet-inc-nasdaqgoogl-q1-2026-earnings-call-transcript-1751029/",
+                "https://www.s.yimg.com/ny/api/res/1.2/ag8HEdfBn5ldhBXH2sTmnw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEwNDtoPTQw/https://www.s.yimg.com/os/creatr-uploaded-images/2020-12/d7df1000-34e4-11eb-b6ae-ac87660fe5ee"
+            ],
+            "external_images": [],
+            "entities": {
+                "persons": [],
+                "organizations": [],
+                "locations": []
+            },
+            "rating": null,
+            "crawled": "2026-06-11T18:09:41.972+03:00",
+            "updated": "2026-06-11T15:29:23.000+00:00"
+        },
+        {
+            "thread": {
+                "uuid": "85c4733233dea2db0ace83e48ec7027d68774edd",
+                "url": "https://ca.news.yahoo.com/martin-lewis-criticises-british-airways-080041281.html",
+                "site_full": "ca.news.yahoo.com",
+                "site": "yahoo.com",
+                "site_section": "https://ca.sports.yahoo.com/rss/",
+                "site_categories": [
+                    "crime, law and justice",
+                    "human interest",
+                    "arts, culture and entertainment",
+                    "economy, business and finance",
+                    "lifestyle and leisure",
+                    "politics",
+                    "media"
+                ],
+                "section_title": "Yahoo Canada Sports - Sports News, Scores, Rumours, Fantasy Games, and more",
+                "title": "Martin Lewis criticises British Airways for third-party website that charges customers more",
+                "title_full": "Martin Lewis criticises British Airways for third-party website that charges customers more",
+                "published": "2026-06-11T11:00:00.000+03:00",
+                "replies_count": 0,
+                "participants_count": 1,
+                "site_type": "news",
+                "country": "CA",
+                "main_image": "https://s.yimg.com/lo/mysterio/api/48882c0e6c6b15e31cb67b777ac3a5980551d618145614f8312ef35a5ad4c7cf/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_577%2F0d2e665ed09325614af835edec25e289",
+                "performance_score": 0,
+                "domain_rank": 56,
+                "domain_rank_updated": "2026-06-08T00:00:00.000+03:00",
+                "social": {
+                    "updated": "2026-06-11T08:07:12.000+00:00",
+                    "facebook": {
+                        "likes": 0,
+                        "comments": 0,
+                        "shares": 0
+                    },
+                    "vk": {
+                        "shares": 0
+                    }
+                }
+            },
+            "uuid": "85c4733233dea2db0ace83e48ec7027d68774edd",
+            "url": "https://ca.news.yahoo.com/martin-lewis-criticises-british-airways-080041281.html",
+            "ord_in_thread": 0,
+            "parent_url": null,
+            "author": "Amelia Neath",
+            "published": "2026-06-11T11:00:00.000+03:00",
+            "title": "Martin Lewis criticises British Airways for third-party website that charges customers more",
+            "text": "Full text is unavailable in the news API lite version",
+            "highlightText": "UTC 3 min read Add Yahoo as a preferred source to see more of our stories on <em>Google</em>.... ",
+            "highlightTitle": "",
+            "highlightThreadTitle": "",
+            "language": "english",
+            "sentiment": "negative",
+            "categories": [
+                "Economy, Business and Finance"
+            ],
+            "external_links": [
+                "https://www.independent.co.uk/topic/martin-lewis",
+                "https://www.independent.co.uk/topic/airline",
+                "https://www.independent.co.uk/topic/british-airways",
+                "https://www.moneysavingexpert.com/news/2026/06/british-airways-airline-esta/",
+                "https://www.independent.co.uk/topic/esta",
+                "http://www.independent.co.uk/",
+                "https://www.google.com/preferences/source?q=ca.news.yahoo.com",
+                "https://s.yimg.com/os/creatr-uploaded-images/2020-12/7b119900-33ff-11eb-bfdb-7285d8d09984",
+                "https://s.yimg.com/lo/mysterio/api/b2eaf3cfe05cf6fed6423e72518029c86dfebc64d90b70ee996f603a0e30dee4/lightyear_networkapi/resizefill_w976;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_577%2Fce7eb7a087cb54d0e80eba036618bb7d",
+                "https://s.yimg.com/lo/mysterio/api/4d899bcb54363a3d668bb5d61bdaa6335eb1e484b89d9469734c7525b6f2bd7b/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-12%2Fa198e100-33ff-11eb-9d2d-df06a39acc16",
+                "https://s.yimg.com/lo/mysterio/api/51d4f02b80c3285a1e7dbd64c149a1002d3772bb83477084014b60f930b7cc7e/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_577%2Fce7eb7a087cb54d0e80eba036618bb7d",
+                "https://www.independent.co.uk/topic/money-saving-expert",
+                "https://s.yimg.com/lo/mysterio/api/efe13f354c67c0fc014ec40a57a53bcb157481a4dc7790955e2d24e75f6beb21/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-12%2F7b119900-33ff-11eb-bfdb-7285d8d09984",
+                "https://independent.co.uk/topic/airline",
+                "https://www.s.yimg.com/lo/mysterio/api/efe13f354c67c0fc014ec40a57a53bcb157481a4dc7790955e2d24e75f6beb21/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-12%2F7b119900-33ff-11eb-bfdb-7285d8d09984",
+                "https://independent.co.uk/topic/british-airways",
+                "http://independent.co.uk/",
+                "https://www.google.com/preferences/source",
+                "https://www.s.yimg.com/lo/mysterio/api/b2eaf3cfe05cf6fed6423e72518029c86dfebc64d90b70ee996f603a0e30dee4/lightyear_networkapi/resizefill_w976;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_577%2Fce7eb7a087cb54d0e80eba036618bb7d",
+                "https://independent.co.uk/topic/martin-lewis",
+                "https://www.moneysavingexpert.com/news/2026/06/british-airways-airline-esta",
+                "https://www.s.yimg.com/os/creatr-uploaded-images/2020-12/7b119900-33ff-11eb-bfdb-7285d8d09984",
+                "https://www.s.yimg.com/lo/mysterio/api/4d899bcb54363a3d668bb5d61bdaa6335eb1e484b89d9469734c7525b6f2bd7b/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-12%2Fa198e100-33ff-11eb-9d2d-df06a39acc16",
+                "https://moneysavingexpert.com/news/2026/06/british-airways-airline-esta/",
+                "http://www.independent.co.uk",
+                "https://independent.co.uk/topic/esta",
+                "https://google.com/preferences/source?q=ca.news.yahoo.com",
+                "https://independent.co.uk/topic/money-saving-expert",
+                "https://www.s.yimg.com/lo/mysterio/api/51d4f02b80c3285a1e7dbd64c149a1002d3772bb83477084014b60f930b7cc7e/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_577%2Fce7eb7a087cb54d0e80eba036618bb7d"
+            ],
+            "external_images": [],
+            "entities": {
+                "persons": [],
+                "organizations": [],
+                "locations": []
+            },
+            "rating": null,
+            "crawled": "2026-06-11T11:06:35.148+03:00",
+            "updated": "2026-06-11T12:14:22.000+00:00"
+        },
+        {
+            "thread": {
+                "uuid": "80f6de17db79b95862ad1ee8e4a0e4ab4bb0be2a",
+                "url": "https://uk.news.yahoo.com/murrell-bought-hair-straighteners-snp-143056972.html",
+                "site_full": "uk.news.yahoo.com",
+                "site": "yahoo.com",
+                "site_section": "https://uk.news.yahoo.com/uk",
+                "site_categories": [
+                    "arts, culture and entertainment",
+                    "crime, law and justice",
+                    "financial_news",
+                    "human interest",
+                    "economy, business and finance",
+                    "finance",
+                    "social issue",
+                    "politics",
+                    "media",
+                    "lifestyle and leisure"
+                ],
+                "section_title": "Latest UK news and top stories | Yahoo News UK",
+                "title": "Murrell bought hair straighteners with SNP funds on Sturgeon's first day in power",
+                "title_full": "Murrell bought hair straighteners with SNP funds on Sturgeon's first day in power",
+                "published": "2026-06-10T17:30:00.000+03:00",
+                "replies_count": 0,
+                "participants_count": 1,
+                "site_type": "news",
+                "country": "US",
+                "main_image": "https://s.yimg.com/lo/mysterio/api/88b60d0b59dfb66859904ecb1ae9c78616185d64748d09e732fee31fd8407064/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2Fd8ca622f79bff1fb8014e200ac199390",
+                "performance_score": 0,
+                "domain_rank": 56,
+                "domain_rank_updated": "2026-06-08T00:00:00.000+03:00",
+                "social": {
+                    "updated": "2026-06-10T14:54:26.000+00:00",
+                    "facebook": {
+                        "likes": 0,
+                        "comments": 0,
+                        "shares": 0
+                    },
+                    "vk": {
+                        "shares": 0
+                    }
+                }
+            },
+            "uuid": "80f6de17db79b95862ad1ee8e4a0e4ab4bb0be2a",
+            "url": "https://uk.news.yahoo.com/murrell-bought-hair-straighteners-snp-143056972.html",
+            "ord_in_thread": 0,
+            "parent_url": null,
+            "author": "Neil Johnston",
+            "published": "2026-06-10T17:30:00.000+03:00",
+            "title": "Murrell bought hair straighteners with SNP funds on Sturgeon's first day in power",
+            "text": "Full text is unavailable in the news API lite version",
+            "highlightText": "10 June 2026 at 2:30 pm UTC 4 min read Add Yahoo as a preferred source to see more of our stories on <em>Google</em>... ",
+            "highlightTitle": "",
+            "highlightThreadTitle": "",
+            "language": "english",
+            "sentiment": "negative",
+            "categories": [
+                "Economy, Business and Finance",
+                "Politics"
+            ],
+            "external_links": [
+                "https://s.yimg.com/lo/mysterio/api/af6bd5ca0ac4de2a3595b8e0a74efdbd01deb4d73279746228610cfef8c0a0fb/lightyear_networkapi/resizefill_w704_h440;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2Ff5fbec5c98d55dfd2de4de40bdb8d6a9",
+                "https://s.yimg.com/lo/mysterio/api/959d0eefa10d1e132e0a8883af94d59ffc4edad9047a3204946882f04dab11a2/lightyear_networkapi/resizefill_w960;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2F26c1755d4112a3353bf738c2b95f4ee0",
+                "https://s.yimg.com/lo/mysterio/api/4ad435c5bb8e634751f25c89ad9455f9b3931b1127e89ce0e5fd28642d025fec/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-12%2F92f3d230-338d-11eb-bf5e-84c9bd66668a",
+                "https://s.yimg.com/os/creatr-uploaded-images/2020-12/92f3d230-338d-11eb-bf5e-84c9bd66668a",
+                "https://s.yimg.com/lo/mysterio/api/88b60d0b59dfb66859904ecb1ae9c78616185d64748d09e732fee31fd8407064/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2Fd8ca622f79bff1fb8014e200ac199390",
+                "http://www.telegraph.co.uk/",
+                "https://www.telegraph.co.uk/politics/2026/06/02/peter-murrell-in-court-over-400k-embezzlement/",
+                "https://www.google.com/preferences/source?q=uk.news.yahoo.com",
+                "https://www.telegraph.co.uk/politics/2026/05/25/what-sturgeon-husband-bought-with-snp-donations/",
+                "https://s.yimg.com/lo/mysterio/api/90ce7ffd2e3606c4b08aeac3468756719a2ac9d05490614b75df3e433b543785/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-12%2Fb14cae50-338d-11eb-be6f-e774b1ae74ba",
+                "https://www.telegraph.co.uk/politics/2026/06/02/inside-the-motorhome-at-heart-of-murrells-400k-fraud/",
+                "https://www.telegraph.co.uk/scottish-national-party/",
+                "https://www.telegraph.co.uk/peter-murrell/",
+                "https://www.telegraph.co.uk/nicola-sturgeon/",
+                "https://s.yimg.com/lo/mysterio/api/ecd1a1583699cbbf6dc7f70c8e7bfebb0dcea7f7472fd56b049f8a572df7c19c/lightyear_networkapi/resizefill_w976;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2Fd8ca622f79bff1fb8014e200ac199390",
+                "https://www.telegraph.co.uk/politics/2026/06/09/murrell-spent-snp-funds-on-luxury-getaway-with-sturgeon/",
+                "https://s.yimg.com/lo/mysterio/api/b2285e04b3574793524375fdc51b8905b5dd4d705d605537b6dd78b4db8b0528/lightyear_networkapi/resizefill_w960;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2F67dcfccd9c06c0a8c4c15136df0338d1",
+                "http://telegraph.co.uk/",
+                "https://telegraph.co.uk/politics/2026/06/02/peter-murrell-in-court-over-400k-embezzlement/",
+                "https://www.s.yimg.com/lo/mysterio/api/b2285e04b3574793524375fdc51b8905b5dd4d705d605537b6dd78b4db8b0528/lightyear_networkapi/resizefill_w960;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2F67dcfccd9c06c0a8c4c15136df0338d1",
+                "https://telegraph.co.uk/politics/2026/06/02/inside-the-motorhome-at-heart-of-murrells-400k-fraud/",
+                "https://telegraph.co.uk/politics/2026/05/25/what-sturgeon-husband-bought-with-snp-donations/",
+                "https://www.s.yimg.com/lo/mysterio/api/4ad435c5bb8e634751f25c89ad9455f9b3931b1127e89ce0e5fd28642d025fec/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-12%2F92f3d230-338d-11eb-bf5e-84c9bd66668a",
+                "https://telegraph.co.uk/peter-murrell/",
+                "https://www.s.yimg.com/os/creatr-uploaded-images/2020-12/92f3d230-338d-11eb-bf5e-84c9bd66668a",
+                "https://www.telegraph.co.uk/politics/2026/06/02/inside-the-motorhome-at-heart-of-murrells-400k-fraud",
+                "https://www.telegraph.co.uk/nicola-sturgeon",
+                "https://telegraph.co.uk/politics/2026/06/09/murrell-spent-snp-funds-on-luxury-getaway-with-sturgeon/",
+                "https://www.telegraph.co.uk/politics/2026/05/25/what-sturgeon-husband-bought-with-snp-donations",
+                "https://www.s.yimg.com/lo/mysterio/api/af6bd5ca0ac4de2a3595b8e0a74efdbd01deb4d73279746228610cfef8c0a0fb/lightyear_networkapi/resizefill_w704_h440;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2Ff5fbec5c98d55dfd2de4de40bdb8d6a9",
+                "http://www.telegraph.co.uk",
+                "https://www.google.com/preferences/source",
+                "https://www.telegraph.co.uk/politics/2026/06/02/peter-murrell-in-court-over-400k-embezzlement",
+                "https://www.s.yimg.com/lo/mysterio/api/ecd1a1583699cbbf6dc7f70c8e7bfebb0dcea7f7472fd56b049f8a572df7c19c/lightyear_networkapi/resizefill_w976;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2Fd8ca622f79bff1fb8014e200ac199390",
+                "https://www.s.yimg.com/lo/mysterio/api/90ce7ffd2e3606c4b08aeac3468756719a2ac9d05490614b75df3e433b543785/lightyear_networkapi/resizefill_h100;quality_100;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-12%2Fb14cae50-338d-11eb-be6f-e774b1ae74ba",
+                "https://www.telegraph.co.uk/scottish-national-party",
+                "https://www.telegraph.co.uk/peter-murrell",
+                "https://telegraph.co.uk/nicola-sturgeon/",
+                "https://www.s.yimg.com/lo/mysterio/api/88b60d0b59dfb66859904ecb1ae9c78616185d64748d09e732fee31fd8407064/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2Fd8ca622f79bff1fb8014e200ac199390",
+                "https://www.s.yimg.com/lo/mysterio/api/959d0eefa10d1e132e0a8883af94d59ffc4edad9047a3204946882f04dab11a2/lightyear_networkapi/resizefill_w960;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2F26c1755d4112a3353bf738c2b95f4ee0",
+                "https://google.com/preferences/source?q=uk.news.yahoo.com",
+                "https://www.telegraph.co.uk/politics/2026/06/09/murrell-spent-snp-funds-on-luxury-getaway-with-sturgeon",
+                "https://telegraph.co.uk/scottish-national-party/"
+            ],
+            "external_images": [],
+            "entities": {
+                "persons": [],
+                "organizations": [],
+                "locations": []
+            },
+            "rating": null,
+            "crawled": "2026-06-10T17:53:19.486+03:00",
+            "updated": "2026-06-11T07:32:50.000+00:00"
+        }
+    ],
+    "totalResults": 192,
+    "moreResultsAvailable": 182,
+    "next": "/newsApiLite?token=a6bbd007-f4a6-4276-bdbb-fe259d6e367c&ts=1780992667753&q=Google+topic%3A%22financial+and+economic+news%22+sentiment%3Anegative&sort=relevancy&order=desc&from=10&ns=44.936672&ni=80f6de17db79b95862ad1ee8e4a0e4ab4bb0be2a&highlight=true&size=10",
+    "requestsLeft": 996,
+    "warnings": null
+}
