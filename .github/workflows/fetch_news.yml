@@ -1,34 +1,19 @@
-name: Fetch News Data
+name: RSS
 
 on:
-  schedule:
-    - cron: '0 0 * * *' # هر روز ساعت 12 شب اجرا می‌شود
-  workflow_dispatch: # امکان اجرای دستی از تب Actions
+  workflow_dispatch:
 
 jobs:
-  build:
+  run:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: "3.12"
 
-      - name: Install requests
-        run: pip install requests
+      - run: pip install -r requirements.txt
 
-      - name: Run script
-        run: python script.py
-        env:
-          API_TOKEN: ${{ secrets.WEBZ_TOKEN }}
-
-      - name: Commit result
-        run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-          git add news_output.json
-          git commit -m "Update news data"
-          git push
+      - run: python main.py
