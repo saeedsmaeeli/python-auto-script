@@ -1,6 +1,6 @@
 import feedparser
 
-rss_url = "RSS_URL_HERE"
+rss_url = "https://nitter.net/VitalikButerin/rss"
 
 feed = feedparser.parse(rss_url)
 
