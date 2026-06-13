@@ -1,63 +1,94 @@
-import asyncio
-from playwright.async_api import async_playwright
+import requests
 from bs4 import BeautifulSoup
+import time
+import json
 
 
-async def fetch_data():
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(
-            headless=True,
-            args=[
-                "--no-sandbox",
-                "--disable-setuid-sandbox",
-                "--disable-dev-shm-usage"
-            ]
-        )
+URL = "https://tokenomist.ai/humidifi"
 
-        page = await browser.new_page()
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 
+
+# -----------------------------
+# Retry Wrapper (fast + stable)
+# -----------------------------
+def fetch_with_retry(url, retries=5, timeout=10, backoff=1.5):
+    session = requests.Session()
+
+    for i in range(retries):
         try:
-            await page.goto(
-                "https://tokenomist.ai/humidifi",
-                wait_until="domcontentloaded",
-                timeout=60000
-            )
+            response = session.get(url, headers=HEADERS, timeout=timeout)
 
-            await page.wait_for_selector(
-                "div.flex.flex-auto.flex-col.justify-between.gap-y-4",
-                timeout=30000
-            )
+            if response.status_code == 200:
+                return response.text
 
-            content = await page.content()
-            soup = BeautifulSoup(content, "html.parser")
+            print(f"[WARN] Status {response.status_code}, retry {i+1}/{retries}")
 
-            container = soup.find(
-                "div",
-                class_="flex flex-auto flex-col justify-between gap-y-4"
-            )
+        except requests.RequestException as e:
+            print(f"[ERROR] {e}, retry {i+1}/{retries}")
 
-            if not container:
-                print("Container not found")
-                return
+        time.sleep(backoff * (i + 1))
 
-            rows = container.find_all(
-                "div",
-                class_="flex h-4.5 min-h-4.5 flex-1 items-center justify-between"
-            )
+    return None
 
-            for row in rows:
-                label = row.find("div", class_="tracking-[-0.12px]")
-                value = row.find("div", class_="text-[13px] leading-[16px] text-black-primary")
 
-                if label and value:
-                    print(f"{label.text.strip()}: {value.text.strip()}")
+# -----------------------------
+# Extractor
+# -----------------------------
+def extract_metrics(html):
+    soup = BeautifulSoup(html, "html.parser")
 
-        except Exception as e:
-            print(f"Error: {e}")
+    data = {}
 
-        finally:
-            await browser.close()
+    # همه بلوک‌های متریک
+    blocks = soup.find_all("div", class_="flex h-4.5 min-h-4.5 flex-1 items-center justify-between")
+
+    for block in blocks:
+        label_el = block.find("div", class_="text-[13px]")
+        value_el = block.find_all("div", class_="text-[13px]")
+
+        if not label_el or len(value_el) < 2:
+            continue
+
+        label = label_el.get_text(strip=True)
+        value = value_el[1].get_text(strip=True)
+
+        if "Reported Market Cap" in label:
+            data["reported_market_cap"] = value
+
+        elif "Adjusted Market Cap" in label:
+            data["adjusted_market_cap"] = value
+
+        elif "Fully Diluted Value" in label:
+            data["fully_diluted_value"] = value
+
+    # Float % (ساختار متفاوت grid)
+    float_block = soup.find("div", class_="grid grid-cols-[52px_1fr_min-content] items-center gap-x-2")
+    if float_block:
+        percent = float_block.find_all("div")[-1].get_text(strip=True)
+        data["float_percent"] = percent
+
+    return data
+
+
+# -----------------------------
+# Main
+# -----------------------------
+def main():
+    html = fetch_with_retry(URL)
+
+    if not html:
+        print("Failed to fetch page after retries")
+        return
+
+    result = extract_metrics(html)
+
+    print(json.dumps(result, indent=4, ensure_ascii=False))
 
 
 if name == "main":
-    asyncio.run(fetch_data())
+    main()
