@@ -4,7 +4,7 @@ import time
 import json
 
 
-URL = "https://tokenomist.ai/humidifi"
+URL = "https://tokenomist.ai/home"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36",
@@ -16,7 +16,7 @@ HEADERS = {
 # -----------------------------
 # Retry Wrapper (fast + stable)
 # -----------------------------
-def fetch_with_retry(url, retries=5, timeout=10, backoff=1.5):
+def fetch_with_retry(url, retries=10, timeout=10, backoff=1.5):
     session = requests.Session()
 
     for i in range(retries):
