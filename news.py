@@ -36,20 +36,21 @@ async def fetch_data():
                 class_="flex flex-auto flex-col justify-between gap-y-4"
             )
 
-            if container:
-                rows = container.find_all(
-                    "div",
-                    class_="flex h-4.5 min-h-4.5 flex-1 items-center justify-between"
-                )
-
-                for row in rows:
-                    label = row.find("div", class_="tracking-[-0.12px]")
-                    value = row.find("div", class_="text-[13px] leading-[16px] text-black-primary")
-
-                    if label and value:
-                        print(f"{label.text.strip()}: {value.text.strip()}")
-            else:
+            if not container:
                 print("Container not found")
+                return
+
+            rows = container.find_all(
+                "div",
+                class_="flex h-4.5 min-h-4.5 flex-1 items-center justify-between"
+            )
+
+            for row in rows:
+                label = row.find("div", class_="tracking-[-0.12px]")
+                value = row.find("div", class_="text-[13px] leading-[16px] text-black-primary")
+
+                if label and value:
+                    print(f"{label.text.strip()}: {value.text.strip()}")
 
         except Exception as e:
             print(f"Error: {e}")
