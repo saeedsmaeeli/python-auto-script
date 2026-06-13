@@ -1,65 +1,94 @@
-import json
+import requests
 from bs4 import BeautifulSoup
-from tenacity import retry, stop_after_attempt, wait_exponential
+import time
+import json
 
-# متغیر نمونه که باید با HTML کامل شما جایگزین شود
-html_content = """...""" 
 
-@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=5))
-def extract_unlock_details(html):
-    soup = BeautifulSoup(html, 'html.parser')
-    
-    # استخراج تاریخ
-    date_val = "N/A"
-    # پیدا کردن div حاوی "Estimated Date & Time"
-    all_divs = soup.find_all('div', class_='flex flex-wrap gap-2')
-    for div in all_divs:
-        if "Estimated Date & Time" in div.text:
-            date_val = div.find_all('div')[-1].text.strip()
-            break
-            
-    data = {
-        "estimated_date_time": date_val,
-        "allocations": []
-    }
-    
-    # استخراج جدول
-    table_body = soup.find('tbody')
-    if not table_body:
-        raise ValueError("جدول Allocation پیدا نشد")
-        
-    rows = table_body.find_all('tr')
-    for row in rows:
-        cols = row.find_all('td')
-        if len(cols) >= 4:
-            # استخراج نام تخصیص
-            name_div = cols[0].find('div', class_='truncate')
-            name = name_div.text.strip() if name_div else "Unknown"
-            
-            # استخراج مقدار ریلیز
-            amount_div = cols[2]
-            amount = amount_div.text.strip() if amount_div else "0"
-            
-            # استخراج درصد ریلیز
-            pct_div = cols[3].find('div', class_='text-symmetric-success')
-            pct = pct_div.text.strip() if pct_div else "0%"
-            
-            data["allocations"].append({
-                "allocation_name": name,
-                "release_amount": amount,
-                "release_percentage": pct
-            })
-            
+URL = "https://tokenomist.ai/home"
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+
+
+# -----------------------------
+# Retry Wrapper (fast + stable)
+# -----------------------------
+def fetch_with_retry(url, retries=10, timeout=10, backoff=1.5):
+    session = requests.Session()
+
+    for i in range(retries):
+        try:
+            response = session.get(url, headers=HEADERS, timeout=timeout)
+
+            if response.status_code == 200:
+                return response.text
+
+            print(f"[WARN] Status {response.status_code}, retry {i+1}/{retries}")
+
+        except requests.RequestException as e:
+            print(f"[ERROR] {e}, retry {i+1}/{retries}")
+
+        time.sleep(backoff * (i + 1))
+
+    return None
+
+
+# -----------------------------
+# Extractor
+# -----------------------------
+def extract_metrics(html):
+    soup = BeautifulSoup(html, "html.parser")
+
+    data = {}
+
+    # همه بلوک‌های متریک
+    blocks = soup.find_all("div", class_="flex h-4.5 min-h-4.5 flex-1 items-center justify-between")
+
+    for block in blocks:
+        label_el = block.find("div", class_="text-[13px]")
+        value_el = block.find_all("div", class_="text-[13px]")
+
+        if not label_el or len(value_el) < 2:
+            continue
+
+        label = label_el.get_text(strip=True)
+        value = value_el[1].get_text(strip=True)
+
+        if "Reported Market Cap" in label:
+            data["reported_market_cap"] = value
+
+        elif "Adjusted Market Cap" in label:
+            data["adjusted_market_cap"] = value
+
+        elif "Fully Diluted Value" in label:
+            data["fully_diluted_value"] = value
+
+    # Float % (ساختار متفاوت grid)
+    float_block = soup.find("div", class_="grid grid-cols-[52px_1fr_min-content] items-center gap-x-2")
+    if float_block:
+        percent = float_block.find_all("div")[-1].get_text(strip=True)
+        data["float_percent"] = percent
+
     return data
 
-def save_to_json(data):
-    with open("unlock_data.json", "w", encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
-    print("اطلاعات با موفقیت در unlock_data.json ذخیره شد.")
 
-try:
-    result = extract_unlock_details(html_content)
-    save_to_json(result)
-except Exception as e:
-    print(f"خطای جدی در پردازش: {e}")
-    
+# -----------------------------
+# Main
+# -----------------------------
+def main():
+    html = fetch_with_retry(URL)
+
+    if not html:
+        print("Failed to fetch page after retries")
+        return
+
+    result = extract_metrics(html)
+
+    print(json.dumps(result, indent=4, ensure_ascii=False))
+
+
+if __name__ == "__main__":
+    main()
