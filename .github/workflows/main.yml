@@ -1,0 +1,33 @@
+name: Run News Script
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '*/30 * * * *'  # هر 30 دقیقه
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install playwright beautifulsoup4
+
+      - name: Install Playwright Browser
+        run: |
+          playwright install chromium
+
+      - name: Run script
+        run: |
+          python news.py
