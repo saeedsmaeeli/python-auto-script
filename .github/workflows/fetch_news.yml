@@ -1,19 +1,21 @@
-name: RSS
-
+name: Scraper Workflow
 on:
-  workflow_dispatch:
-
+schedule:
+- cron: '0 * * * *' # اجرای خودکار هر ساعت
+workflow_dispatch: # امکان اجرای دستی
 jobs:
-  run:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - run: pip install -r requirements.txt
-
-      - run: python news.py
+scrape:
+runs-on: ubuntu-latest
+steps:
+- name: Checkout code
+uses: actions/checkout@v3
+- name: Set up Python
+uses: actions/setup-python@v4
+with:
+python-version: '3.10'
+- name: Install dependencies
+run: |
+pip install playwright beautifulsoup4
+playwright install chromium
+- name: Run Scraper
+run: python news.py
