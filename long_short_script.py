@@ -1,5 +1,6 @@
 import requests
 import json
+import time
 
 def get_sentiment_by_ratio(ratio):
     if ratio > 1.2:
@@ -10,10 +11,10 @@ def get_sentiment_by_ratio(ratio):
         return "بازار متعادل"
 
 def send_to_database(data):
-    # آدرس فایل PHP در سرور شما
     url = "https://bazarpulse.ir/receiver_longtoshort.php"
+    headers = {'User-Agent': 'Mozilla/5.0'}
     try:
-        response = requests.post(url, json=data, timeout=10)
+        response = requests.post(url, json=data, headers=headers, timeout=20)
         return response.text
     except Exception as e:
         return str(e)
@@ -26,15 +27,20 @@ def get_market_long_short_ratio():
     ratio_data = {}
 
     for symbol in symbols:
+        # مکث کوتاه برای جلوگیری از بلاک شدن توسط بایننس
+        time.sleep(1) 
         try:
             url_stats = f"https://api.binance.com/api/v3/ticker/24hr?symbol={symbol}"
-            vol = float(requests.get(url_stats, timeout=5).json()['quoteVolume'])
+            vol = float(requests.get(url_stats, timeout=10).json()['quoteVolume'])
+            
             url_ratio = f"https://fapi.binance.com/futures/data/globalLongShortAccountRatio?symbol={symbol}&period=1h"
-            ratio = float(requests.get(url_ratio, timeout=5).json()[0]['longShortRatio'])
+            ratio = float(requests.get(url_ratio, timeout=10).json()[0]['longShortRatio'])
+            
             volume_data[symbol] = vol
             ratio_data[symbol] = ratio
             total_volume += vol
-        except:
+        except Exception as e:
+            print(f"Error for {symbol}: {e}")
             continue
 
     if total_volume == 0:
@@ -52,7 +58,6 @@ def get_market_long_short_ratio():
         "status": "success"
     }
     
-    # ارسال داده به سرور
     send_to_database(result)
     return result
 
