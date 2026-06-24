@@ -1,0 +1,24 @@
+name: Market Data Collector Workflow
+
+# حذف زمان‌بندی و فعال‌سازی اجرای فقط به صورت دستی
+on:
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run collector script
+        run: python long_short_script.py
