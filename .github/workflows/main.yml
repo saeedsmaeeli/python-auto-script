@@ -1,23 +1,25 @@
-name: Run Long Short Ratio Script
+name: Test Python Script
 
 on:
+  push:
+    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
-  build:
+  run-script:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      # گرفتن کد از ریپازیتوری
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
+      # نصب پایتون
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: "3.11"
 
-      - name: Install dependencies
-        run: |
-          pip install requests ccxt
-
+      # اجرای اسکریپت
       - name: Run script
-        run: python get_funding_rate.py
+        run: python long_short_script.py
