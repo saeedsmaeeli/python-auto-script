@@ -1,24 +1,28 @@
-name: Market Data Collector Workflow
+name: Run Market Script
 
-# حذف زمان‌بندی و فعال‌سازی اجرای فقط به صورت دستی
 on:
-  workflow_dispatch:
+  workflow_dispatch:   # اجرای دستی
+  schedule:
+    - cron: "0 * * * *"  # هر 1 ساعت
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: "3.11"
 
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install requests
 
-      - name: Run collector script
-        run: python long_short_script.py
+      - name: Run script
+        run: |
+          python long_short_script.py
