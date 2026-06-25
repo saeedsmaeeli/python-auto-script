@@ -1,74 +1,92 @@
 import requests
 import json
 
-# جلوگیری از استفاده از پروکسی سیستم (در GitHub Actions هم مشکلی ندارد)
 PROXIES_OFF = {
     "http": None,
     "https": None
 }
 
+
 def send_to_database(data):
     url = "https://bazarpulse.ir/receiver_longtoshort.php"
 
     try:
-        response = requests.post(
+        r = requests.post(
             url,
             json=data,
             timeout=10,
             proxies=PROXIES_OFF
         )
-        print("DB Response:", response.text)
-        return response.text
+        print("DB RESPONSE:", r.text)
+        return r.text
     except Exception as e:
-        print("DB ERROR:", str(e))
+        print("DB ERROR:", e)
         return None
 
 
 def safe_get(url):
-    """درخواست امن با header برای جلوگیری از بلاک شدن"""
+    """request امن برای GitHub Actions"""
     headers = {
         "User-Agent": "Mozilla/5.0"
     }
-    return requests.get(url, headers=headers, timeout=8, proxies=PROXIES_OFF)
+    try:
+        r = requests.get(url, headers=headers, timeout=8, proxies=PROXIES_OFF)
+        return r.json()
+    except Exception as e:
+        print("REQUEST FAIL:", url, e)
+        return None
 
 
 def get_market_long_short_ratio():
     symbols = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "BNBUSDT"]
 
-    weighted_ratio = 0.0
-    total_volume = 0.0
-
     volume_data = {}
     ratio_data = {}
 
+    total_volume = 0.0
+    weighted_ratio = 0.0
+
     for symbol in symbols:
         try:
-            # حجم بازار اسپات
+            # ===== SPOT VOLUME =====
             url_stats = f"https://api.binance.com/api/v3/ticker/24hr?symbol={symbol}"
-            vol = float(safe_get(url_stats).json()["quoteVolume"])
+            data_stats = safe_get(url_stats)
 
-            # نسبت لانگ/شورت فیوچرز
+            if not data_stats or "quoteVolume" not in data_stats:
+                print("BAD VOLUME RESPONSE:", symbol, data_stats)
+                continue
+
+            vol = float(data_stats["quoteVolume"])
+
+            # ===== LONG/SHORT RATIO =====
             url_ratio = f"https://fapi.binance.com/futures/data/globalLongShortAccountRatio?symbol={symbol}&period=1h"
-            ratio = float(safe_get(url_ratio).json()[0]["longShortRatio"])
+            data_ratio = safe_get(url_ratio)
+
+            if not data_ratio or not isinstance(data_ratio, list):
+                print("BAD RATIO RESPONSE:", symbol, data_ratio)
+                continue
+
+            ratio = float(data_ratio[0].get("longShortRatio", 1))
 
             volume_data[symbol] = vol
             ratio_data[symbol] = ratio
             total_volume += vol
 
-            print(f"{symbol} | vol={vol} | ratio={ratio}")
+            print(f"{symbol} | VOL={vol} | RATIO={ratio}")
 
         except Exception as e:
-            print(f"ERROR {symbol}: {e}")
+            print("ERROR SYMBOL:", symbol, e)
             continue
 
     if total_volume == 0:
         result = {
             "status": "error",
-            "message": "No data received"
+            "message": "No valid data received"
         }
         print(result)
         return result
 
+    # ===== weighted calculation =====
     for symbol in volume_data:
         weight = volume_data[symbol] / total_volume
         weighted_ratio += ratio_data[symbol] * weight
